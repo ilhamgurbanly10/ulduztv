@@ -6,25 +6,23 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
+	<meta name="theme-color" content="#cfa144" />
 
-	<title>bizim-xeber.az - gallery</title>
+	<title>dunyadan-xeber.com - gallery</title>
 
 	<link href="images/icon.png" type="image/png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-header.min.css">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-post.min.css">
-	<link rel="stylesheet" type="text/css" href="css/flash/flash-gallery.css">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-footer.min.css">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash.min.css">
+	<link rel="stylesheet" type="text/css" href="css/flash/flash-simple-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/flash/flash-gallery.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/post.css">
 	<link rel="stylesheet" type="text/css" href="css/gallery.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="font_awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
-
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
-	<script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
 
 </head>
 
@@ -38,170 +36,323 @@
 
 		<div class="fl-loading-ani-divider"></div>
 
-		<div class="fl-loading-ani-path">
-			
-			<div class="fl-loading-ani-line"></div>
+		<div class="loading-ani-circles-par">
 
-		</div>
+			<div class="loading-ani-circle"></div>
+			<div class="loading-ani-circle"></div>
+
+		</div>	
 
 	</div>
 
 	<!-- the-end-of-loading-animation -->
 
-	<header class="fl-header fl-layer-overlay fl-bg-img">
+
+	<!-- flash-scroll-indicator -->
+
+	<div class="fl-scroll-indicator"></div>
+
+	<!-- the-end-of-flash-scroll-indicator -->
+
+	<header class="fl-header">
 
 		<!-- fl-navbar -->
 
-		<nav class="fl-navbar fl-flex-row-wrap-space-between-and-center">
+		<nav class="fl-navbar">
 
-			<a href="https://ilhamgurbanly10.github.io/bizim-xeber/" class="fl-navbar-brand">
+			<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-navbar-brand">
 				<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
 			</a>
-
-			<!-- fl-navbar-toggler -->
-
-			<button type="button" class="fl-navbar-toggler fl-hide-in-big-screen">
-				<p class="fl-navbar-toggler-line"></p>
-			</button>
-
-			<!-- the-end-of-fl-navbar-toggler -->
 			
-			<!-- fl-navbar-nav -->
-
-			<ul class="fl-navbar-nav fl-hide-in-small-screen">
+			<!-- the-end-of-navbar-container -->
+			<div class="navbar-container">
 				
-				<li class="fl-nav-item">
+				<!-- fl-navbar-links -->
 
-					<a href="https://ilhamgurbanly10.github.io/bizim-xeber/" class="fl-nav-link fl-active">	HOME <i class="fl-nav-link-icon fa fa-home"></i>
-					</a>
+				<ul class="fl-navbar-links">
 
-				</li>
+					<li class="fl-navbar-links-item">	
 
-				<li class="fl-nav-item">
+						<a href="#" class="fl-navbar-links-link">
+							<img src="images/navbar-brand.png"> 
+							<span>TV-STREAM</span>
+						</a>
 
-					<a href="#" class="fl-nav-link">ABOUT</a>
+					</li>
 
-				</li>
+					<li class="fl-navbar-links-item navbar-radio-stream-item">	
 
-				<li class="fl-nav-item fl-nav-item-dropdown">
+						<a href="#" class="fl-navbar-links-link">
+							<img src="images/navbar-brand.png"> 
+							<span>RADIO-STREAM</span>
+						</a>
 
-					<a href="" class="fl-nav-link fl-nav-dropdown-toggler">	
-						NEWS <i class="fl-nav-link-icon fa fa-angle-down"></i>
-					</a>
+					</li>
 
-					<div class="fl-dropdown-menu-con">
+					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
 
-						<ul class="fl-dropdown-menu">
+						<a href="#" class="fl-navbar-links-link">
+							<i class="fl-navbar-links-link-icon fa fa-cloud"></i> 
+							<span>WEATHER</span>
+						</a>
 
-							<li class="fl-dropdown-menu-item">
+					</li>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="https://ilhamgurbanly10.github.io/bizim-xeber/">
-									ALL
-								</a>
+					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
 
-							</li>
+						<a href="#" class="fl-navbar-links-link">
+							<i class="fl-navbar-links-link-icon fa fa-mobile"></i> 
+							<span>OUR APP</span>
+						</a>
 
-							<li class="fl-dropdown-menu-item">
+					</li>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									WORLD
-								</a>
+					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
 
-							</li>
+						<a href="#" class="fl-navbar-links-link">
+							<i class="fl-navbar-links-link-icon fa fa-shopping-cart"></i> 
+							<span>DX SHOP</span>
+						</a>
 
-							<li class="fl-dropdown-menu-item">
+					</li>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									US POLITICS
-								</a>
+					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
 
-							</li>
+						<a href="#" class="fl-navbar-links-link">
+							<i class="fl-navbar-links-link-icon fa fa-newspaper-o"></i> 
+							<span>NEWSPAPER</span>
+						</a>
 
-							<li class="fl-dropdown-menu-item">
+					</li>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									BUSINESS
-								</a>
+					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
 
-							</li>
+						<a href="#" class="fl-navbar-links-link fl-link-disabled fl-navbar-search-toggler">
+							<i class="fl-navbar-links-link-icon fa fa-search"></i> 
+							<span>SEARCH</span>
+						</a>
 
-							<li class="fl-dropdown-menu-item">
+					</li>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									HEALTH
-								</a>
+					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
 
-							</li>
+						<a href="#" class="fl-navbar-links-link fl-sign-up-btn fl-link-disabled fl-modal-con-shower" target="#userModalContainer">
+							<i class="fl-navbar-links-link-icon fa fa-user"></i> 
+							<span>SIGN UP</span>
+						</a>
 
-							<li class="fl-dropdown-menu-item">
+					</li>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									ENTERTAINMENT
-								</a>
+					<li class="fl-navbar-links-item">
 
-							</li>
+						<!-- fl-navbar-toggler -->
 
-							<li class="fl-dropdown-menu-item">
+						<button type="button" class="fl-navbar-toggler fl-hide-in-big-screen">
+							<p class="fl-navbar-toggler-line"></p>
+						</button>
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									STYLE
-								</a>
+					</li>
 
-							</li>
+				</ul>
 
-							<li class="fl-dropdown-menu-item">
+				<!-- the-end-of-fl-navbar-links -->
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									TRAVEL
-								</a>
 
-							</li>
 
-							<li class="fl-dropdown-menu-item">
+				<!-- fl-navbar-nav -->
 
-								<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-									SPORTS
-								</a>
+				<ul class="fl-navbar-nav fl-hide-in-small-screen">
+					
+					<li class="fl-nav-item">
 
-							</li>
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-nav-link fl-active">	
+							HOME <i class="fl-nav-link-icon fa fa-home"></i>
+						</a>
 
-				        </ul>
+					</li>
 
-			        </div>
+					<li class="fl-nav-item">
 
-				</li>
+						<a href="#" class="fl-nav-link">ABOUT</a>
 
-				<li class="fl-nav-item">
+					</li>
 
-					<a href="#" class="fl-nav-link">
-						VIDEOS
-					</a>
+					<li class="fl-nav-item fl-nav-item-dropdown">
 
-				</li>
+						<a href="" class="fl-nav-link fl-nav-dropdown-toggler">	
+							NEWS <i class="fl-nav-link-icon fa fa-angle-down"></i>
+						</a>
 
-				<li class="fl-nav-item">
+						<div class="fl-dropdown-menu-con">
 
-					<a href="https://ilhamgurbanly10.github.io/bizim-xeber/gallery" class="fl-nav-link">
-						GALLERY
-					</a>
+							<ul class="fl-dropdown-menu">
 
-				</li>
+								<li class="fl-dropdown-menu-item">
 
-			</ul>
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="https://ilhamgurbanly10.github.io/dunyadan-xeber/">
+										ALL
+									</a>
 
-			<!-- the-end-of-fl-navbar-nav -->
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										INLAND
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										ABROAD
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										MYSTERY
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										POLITICS
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										ENTERTAINMENT
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										SPORT
+									</a>
+
+								</li>
+
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										FOOTBALL
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										LIFESTYLE
+									</a>
+
+								</li>
+
+								<li class="fl-dropdown-menu-item">
+
+									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
+										THE DAY AT DUNYADAN XEBER
+									</a>
+
+								</li>
+
+					        </ul>
+
+				        </div>
+
+					</li>
+
+					<li class="fl-nav-item">
+
+						<a href="#" class="fl-nav-link">
+							VIDEOS
+						</a>
+
+					</li>
+
+					<li class="fl-nav-item">
+
+						<a href="#" class="fl-nav-link">
+							COURSES
+						</a>
+
+					</li>
+
+					<li class="fl-nav-item">
+
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/gallery" class="fl-nav-link">
+							GALLERY
+						</a>
+
+					</li>
+
+					<li class="fl-nav-item">
+
+						<a href="#" class="fl-nav-link">
+							TV PROGRAM
+						</a>
+
+					</li>
+
+					<li class="fl-nav-item">
+
+						<a href="#" class="fl-nav-link">
+							RADIO PROGRAM
+						</a>
+
+					</li>
+
+				</ul>
+
+				<!-- the-end-of-fl-navbar-nav -->
+
+			</div>	
+			<!-- the-end-of-navbar-container -->
 
 
 
 			<!-- fl-sm-screen-menu -->	
 
-			<nav class="fl-sm-screen-menu fl-hide-in-big-screen">
+			<nav class="fl-sm-screen-menu fl-hide-in-big-screen fl-full-screen-sm-screen-menu">
+
+				<button type="button" class="fl-sm-screen-closer">
+					<i class="fa fa-times"></i>
+				</button>
 
 				<ul class="fl-sm-screen-menu-list">
+
+					<div class="sm-screen-menu-top-container fl-flex-row-wrap-space-between-and-center">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-navbar-brand">
+							<img src="images/icon.png" class="fl-navbar-brand-img">
+						</a>
+
+						<a href="#" class="fl-navbar-links-link fl-link-disabled sm-screen-menu-top-container-search-btn" >
+							<i class="fl-navbar-links-link-icon fa fa-search"></i>
+						</a>
+
+						<a href="#" class="fl-navbar-links-link fl-link-disabled fl-clicker sm-screen-menu-top-container-link sm-screen-menu-top-container-sign-up-btn" click-target=".fl-modal-con-shower">
+							<i class="fl-navbar-links-link-icon fa fa-user"></i> 
+							SIGN UP
+						</a>
+
+					</div>
 						
 					<li class="fl-sm-screen-menu-item">
 
-						<a href="https://ilhamgurbanly10.github.io/bizim-xeber/" class="fl-sm-screen-menu-link fl-active">	
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-sm-screen-menu-link fl-active">	
 							HOME <i class="fl-nav-link-icon fa fa-home"></i>
 						</a>
 
@@ -227,7 +378,7 @@
 
 								<li class="fl-sm-screen-dropdown-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link fl-sm-screen-dropdown-menu-main-link" href="https://ilhamgurbanly10.github.io/bizim-xeber/">
+									<a class="fl-sm-screen-dropdown-menu-link fl-sm-screen-dropdown-menu-main-link" href="https://ilhamgurbanly10.github.io/dunyadan-xeber/">
 										ALL
 									</a>
 
@@ -236,7 +387,7 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										WORLD
+										INLAND
 									</a>
 
 								</li>
@@ -244,7 +395,7 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										US POLITICS
+										ABROAD
 									</a>
 
 								</li>
@@ -252,7 +403,7 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										BUSINESS
+										MYSTERY
 									</a>
 
 								</li>
@@ -260,7 +411,7 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										HEALTH
+										POLITICS
 									</a>
 
 								</li>
@@ -276,7 +427,7 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										STYLE
+										SPORT
 									</a>
 
 								</li>
@@ -284,7 +435,7 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										TRAVEL
+										FOOTBALL
 									</a>
 
 								</li>
@@ -292,7 +443,15 @@
 								<li class="fl-sm-screen-dropdown-menu-item">
 
 									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										SPORTS
+										LIFESTYLE
+									</a>
+
+								</li>
+
+								<li class="fl-sm-screen-dropdown-menu-item">
+
+									<a class="fl-sm-screen-dropdown-menu-link" href="#">
+										THE DAY AT DUNYADAN XEBER
 									</a>
 
 								</li>
@@ -311,9 +470,59 @@
 
 					<li class="fl-sm-screen-menu-item">
 
-						<a href="https://ilhamgurbanly10.github.io/bizim-xeber/gallery" class="fl-sm-screen-menu-link">
+						<a href="#" class="fl-sm-screen-menu-link">COURSES</a>
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/gallery" class="fl-sm-screen-menu-link">
 							GALLERY
 						</a>
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="#" class="fl-sm-screen-menu-link">TV PROGRAM</a>
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="#" class="fl-sm-screen-menu-link">RADIO PROGRAM</a>
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="#" class="fl-sm-screen-menu-link">
+							<i class="fa fa-cloud sm-screen-menu-links-icon"></i>WEATHER
+						</a>	
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="#" class="fl-sm-screen-menu-link">
+							<i class="fa fa-mobile sm-screen-menu-links-icon"></i>OUR APP
+						</a>	
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="#" class="fl-sm-screen-menu-link">
+							<i class="fa fa-shopping-cart sm-screen-menu-links-icon"></i>DX SHOP
+						</a>	
+
+					</li>
+
+					<li class="fl-sm-screen-menu-item">
+
+						<a href="#" class="fl-sm-screen-menu-link">
+							<i class="fa fa-newspaper-o sm-screen-menu-links-icon"></i>NEWSPAPER
+						</a>	
 
 					</li>
 
@@ -323,414 +532,475 @@
 
 			<!-- the-end-of-fl-sm-screen-menu -->
 
+
+
+			<!-- fl-navbar-search -->
+
+			<div class="fl-navbar-search-parent fl-navbar-search-parent-js">
+
+				<p class="fl-title-4 navbar-search-title color-grey fl-fw-bold fl-text-center">
+					<span class="color-gold">Dünyadan Xəbər</span> SEARCH
+				</p>
+
+				<form class="fl-navbar-search" method="post" action="" target="" show-results="false">	
+
+					<div class="navbar-search-con">
+
+					<input type="text" name="search" id="search" class="fl-navbar-search-input" required="" placeholder="Search something...">
+
+					<button type="submit" class="fl-navbar-search-submit" disabled="">
+						<i class="fa fa-search"></i>
+						<span>SEARCH</span>
+					</button>
+
+					</div>
+
+				</form>
+				
+			</div>
+
+			<!-- the-end-of-fl-navbar-search -->
+
 		</nav>
 
 		<!-- the-end-of-fl-navbar -->	
 
-
-
-		<!-- fl-navbar-links -->
-
-		<ul class="fl-navbar-links">
-
-			<h1 class="navbar-links-title">Bizim Xəbərlər</h1>
-
-			<li class="fl-navbar-links-item">	
-
-				<a href="#" class="fl-navbar-links-link fl-link-disabled fl-navbar-search-toggler">
-					<i class="fl-navbar-links-link-icon fa fa-search"></i> SEARCH
-				</a>
-
-			</li>
-
-			<li class="fl-navbar-links-item">	
-
-				<a href="#" class="fl-navbar-links-link fl-sign-in-btn">
-					<i class="fl-navbar-links-link-icon fa fa-sign-in"></i> SIGN IN
-				</a>
-
-			</li>
-
-			<li class="fl-navbar-links-item">	
-
-				<a href="#" class="fl-navbar-links-link fl-sign-up-btn">
-					<i class="fl-navbar-links-link-icon fa fa-user"></i> SIGN UP
-				</a>
-
-			</li>
-
-		</ul>
-
-		<!-- the-end-of-fl-navbar-links -->
-
-
-
-		<div class="fl-flex-divider-in-small-screen"></div>
-
-
-
-
-		<!-- fl-navbar-search -->
-
-		<div class="fl-navbar-search-parent fl-font-md-2-parent">
-
-			<form class="fl-navbar-search" method="post" action="" target="" show-results="true">	
-
-			<div class="fl-relative">
-
-				<input type="text" name="search" id="search" class="fl-navbar-search-input" required="" placeholder="Search something...">
-
-				<div class="fl-navbar-search-buttons-con">
-
-					<button type="submit" class="fl-navbar-search-submit" disabled="">
-							<i class="fa fa-search"></i>
-					</button>
-
-					<button type="reset" class="fl-navbar-search-reset" disabled="">
-							<i class="fa fa-times"></i>
-					</button>
-
-				</div>
-
-			</div>	
-
-			</form>
-
-			<ul class="fl-navbar-results-of-search">
-		
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_01.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_02.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_03.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_04.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_05.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_06.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_07.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-				<li class="fl-navbar-results-of-search-item">
-
-					<a href="#" class="fl-navbar-results-of-search-link">
-
-						<div class="fl-navbar-results-of-search-img-con">
-							
-							<div class="fl-navbar-results-of-search-img-overlay"></div>
-
-							<img src="images/posts/post_08.jpg" class="fl-navbar-results-of-search-img">
-
-						</div>
-
-
-						<h3 class="fl-navbar-results-of-search-name">News news news</h3>
-
-						<p class="fl-navbar-results-of-search-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-					</a>
-
-				</li>
-
-			</ul>
-			
-		</div>
-
-		<!-- the-end-of-fl-navbar-search -->
 	
 	</header>
 
 
 
-	<!-- latest-news -->
+	<!-- flash-live-chat -->
 
-	<div class="latest-news-con fl-slick-arrows">
+	<div class="fl-live-chat-con">
 
-		<a href="https://ilhamgurbanly10.github.io/bizim-xeber/post" class="latest-news-link">
+		<button type="button" class="fl-live-chat-close-btn">
+			<i class="fa fa-close"></i>
+		</button>
 
-			<img src="images/posts/side_post_01.jpg" class="latest-news-img">
+		<div class="fl-live-chat-header fl-drag-element-header">
 
-			<div class="latest-news-text-con">
+			<img src="images/navbar-brand.png" class="fl-live-chat-brand">
 
-				<p class="latest-news-date">
-					
-					<span class="latest-news-day">28 Mar</span>
-					<span class="latest-news-hour">15:59</span>
-					<span class="latest-news-watch-num">578</span>
+		</div>
 
-				</p>
+		<div class="fl-live-chat-profile">
 
-				<p class="latest-news-text">
-					Text about news, text about news.
-				</p>
+			<div class="fl-live-chat-profile-img-con">
+				<img src="images/profile-images/user_02.jpg" class="fl-live-chat-profile-img">
+			</div>
 
-			</div>	
+			<p class="fl-live-chat-profile-name">Aysu Gurbanova</p>
+
+			<button type="button" class="fl-live-chat-like-btn">
+				<i class="fa fa-thumbs-up"></i>
+			</button>
+
+			<button type="button" class="fl-live-chat-dislike-btn">
+				<i class="fa fa-thumbs-down"></i>
+			</button>
+
+		</div>
+
+		<div class="fl-live-chat-messages-con">
 			
-		</a>
+			<div class="fl-live-chat-messages-day">
+				<span class="fl-live-chat-messages-day-text">Today</span>
+			</div>
 
-		<a href="https://ilhamgurbanly10.github.io/bizim-xeber/post" class="latest-news-link">
+			<div class="fl-live-chat-message fl-live-chat-user-message">
 
-			<img src="images/posts/side_post_02.jpg" class="latest-news-img">
+				<div class="fl-live-chat-message-header">
+					<span class="fl-live-chat-message-name">Your Message</span>
+					<span class="fl-live-chat-message-date">14:25</span>
+				</div>
 
-			<div class="latest-news-text-con">
+				<div class="fl-live-chat-message-text">
+				 Text text text text text text text text text text.
+				</div>
 
-				<p class="latest-news-date">
-					
-					<span class="latest-news-day">28 Mar</span>
-					<span class="latest-news-hour">16:05</span>
-					<span class="latest-news-watch-num">881</span>
+			</div>
 
-				</p>
+			<div class="fl-live-chat-message">
 
-				<p class="latest-news-text">
-					Text about news, text about news.
-				</p>
+				<div class="fl-live-chat-message-header">
+					<span class="fl-live-chat-message-name">Aysu Gurbanova</span>
+					<span class="fl-live-chat-message-date">14:30</span>
+				</div>
 
-			</div>	
+				<div class="fl-live-chat-message-text">
+				 Text text text text text text text text text text text text text text text text text text text.
+				</div>
+
+			</div>
+
+			<div class="fl-live-chat-message fl-live-chat-user-message">
+
+				<div class="fl-live-chat-message-header">
+					<span class="fl-live-chat-message-name">Your Message</span>
+					<span class="fl-live-chat-message-date">14:40</span>
+				</div>
+
+				<div class="fl-live-chat-message-text">
+				 Text text text text text text.
+				</div>
+
+			</div>
+
+			<div class="fl-live-chat-message">
+
+				<div class="fl-live-chat-message-header">
+					<span class="fl-live-chat-message-name">Aysu Gurbanova</span>
+					<span class="fl-live-chat-message-date">14:42</span>
+				</div>	
+
+				<div class="fl-live-chat-message-text">
+				 Text text text.
+				</div>
+
+			</div>
+
+		</div>
+
+		<button type="button" class="fl-chat-form-toggler">
+			<i class="fa fa-envelope fa-close"></i>
+		</button>
+
+		<form class="fl-live-chat-form" method="post" action="chats.php">
 			
-		</a>
+			<textarea name="messagge" class="fl-live-chat-form-input" placeholder="Enter Message"></textarea>
 
-		<a href="https://ilhamgurbanly10.github.io/bizim-xeber/post" class="latest-news-link">
+			<input type="submit" disabled="" name="submit-messagge" class="fl-live-chat-form-submit gold-btn-color" value="Send">
 
-			<img src="images/posts/side_post_03.jpg" class="latest-news-img">
+			<input type="reset" name="" class="fl-live-chat-form-reset" value="Reset">
 
-			<div class="latest-news-text-con">
+		</form>
 
-				<p class="latest-news-date">
-					
-					<span class="latest-news-day">28 Mar</span>
-					<span class="latest-news-hour">18:00</span>
-					<span class="latest-news-watch-num">1300</span>
+	</div>
 
-				</p>
+	<button type="button" class="fl-live-chat-open-btn">
+		<span>Live Chat</span>
+		<i class="fa fa-comment"></i>
+	</button>
 
-				<p class="latest-news-text">
-					Text about news, text about news.
-				</p>
+	<!-- the-end-of-flash-live-chat -->
 
-			</div>	
+
+
+	<!-- choose-languages -->
+
+	<div class="fl-dropdown-con choose-languages-dropdown-con">
+		
+		<!-- event attribute - click/hover -->
+
+		<button class="fl-dropdown-toggler choose-languages-toggler" event="click" target="#chooseLanguagesCon">
+			<i class="fa fa-gear"></i>
+		</button>
+
+		<div class="fl-dropdown-el" id="chooseLanguagesCon">
 			
-		</a>
+			<ul class="fl-dropdown-list">
+				
+				<div class="fl-dropdown-divider">
 
-		<a href="https://ilhamgurbanly10.github.io/bizim-xeber/post" class="latest-news-link">
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">Azerbaijan</a>
 
-			<img src="images/posts/side_post_04.jpeg" class="latest-news-img">
+					</li>
 
-			<div class="latest-news-text-con">
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link fl-active">English</a>
+						
+					</li>
 
-				<p class="latest-news-date">
-					
-					<span class="latest-news-day">28 Mar</span>
-					<span class="latest-news-hour">18:30</span>
-					<span class="latest-news-watch-num">1721</span>
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">French</a>
+						
+					</li>
 
-				</p>
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">Italian</a>
+						
+					</li>
 
-				<p class="latest-news-text">
-					Text about news, text about news.
-				</p>
+				</div>
 
-			</div>	
+				<div class="fl-dropdown-divider">	
+
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">German</a>
+						
+					</li>
+
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">Portuguese</a>
+						
+					</li>
+
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">Spanish</a>
+						
+					</li>
+
+					<li class="fl-dropdown-item">
+						
+						<a href="#" class="fl-dropdown-link">Turkish</a>
+						
+					</li>
+
+				</div>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-choose-languages -->
+
+
+
+	<!-- user-modal-container -->
+
+	<div class="fl-modal-con" id="userModalContainer">
+
+		<button type="button" class="fl-modal-con-closer">
+			<i class="fa fa-times"></i>
+		</button>
+
+		<div class="fl-modal-child">
 			
-		</a>
+			<form class="fl-form" method="POST" action="user.php">
 
-		<a href="https://ilhamgurbanly10.github.io/bizim-xeber/post" class="latest-news-link">
+				<button type="button" class="user-modal-con-close-btn">
+					<i class="fa fa-times"></i>
+				</button>
 
-			<img src="images/posts/side_post_05.png" class="latest-news-img">
+				<h4 class="fl-form-title fl-title-3">Sign Up</h4>						
 
-			<div class="latest-news-text-con">
+				<div class="fl-form-con">
 
-				<p class="latest-news-date">
-					
-					<span class="latest-news-day">28 Mar</span>
-					<span class="latest-news-hour">20:01</span>
-					<span class="latest-news-watch-num">2304</span>
+					<label for="userName" class="fl-form-label">Username</label>
 
-				</p>
+					<div class="fl-form-input-con">
 
-				<p class="latest-news-text">
-					Text about news, text about news.
-				</p>
+						<input type="text" name="userName" id="userName" placeholder="Username" class="fl-form-input">
+						<i class="fa fa-user fl-form-input-icon"></i>
 
-			</div>	
-			
-		</a>
+					</div>
 
-		<a href="https://ilhamgurbanly10.github.io/bizim-xeber/post" class="latest-news-link">
+				</div>
 
-			<img src="images/posts/side_post_06.png" class="latest-news-img">
+				<div class="fl-form-con">
 
-			<div class="latest-news-text-con">
+					<label for="password" class="fl-form-label">Password</label>
 
-				<p class="latest-news-date">
-					
-					<span class="latest-news-day">28 Mar</span>
-					<span class="latest-news-hour">21:00</span>
-					<span class="latest-news-watch-num">1203</span>
+					<div class="fl-form-input-con">
 
-				</p>
+						<input type="password" name="password" id="password" placeholder="Password" class="fl-form-input fl-password-input">
+						<i class="fa fa-eye fa-eye-slash fl-form-input-icon fl-form-password-input-icon"></i>
 
-				<p class="latest-news-text">
-					Text about news, text about news.
-				</p>
+					</div>	
 
-			</div>	
-			
-		</a>
+				</div>
+
+				<div class="fl-form-con">
+
+					<input type="submit" name="submit" class="fl-form-btn fl-form-submit gold-btn-color" value="Sign in">
+
+				</div>
+
+				<div class="fl-form-con">
+
+					<label class="fl-checkbox-label">Remember me
+						<input type="checkbox" checked="checked">
+						<span class="fl-checkmark"></span>
+					</label>
+
+				</div>
+
+				<div class="fl-form-con">
+
+					<a href="#" class="user-modal-form-link">Already signed up?</a>
+
+				</div>
+
+			</form>
+
+		</div>	
+
+		<!-- the-end-of-user-modal-child -->
 		
 	</div>
 
-	<!-- the-end-of-latest-news -->
+	<!-- the-end-of-user-modal-container -->
+
+
+
+	<!-- flash-simple-slider -->
+
+	<div class="fl-simple-slider" id="headSimpleSlider">
+		
+		<!-- ---arrows--- -->	
+		<button type="button" class="fl-simple-slider-prev fl-simple-slider-arrow">
+			<i class="fa fa-chevron-left fl-simple-slider-icon"></i>
+		</button>
+
+		<button type="button" class="fl-simple-slider-next fl-simple-slider-arrow">
+			<i class="fa fa-chevron-right fl-simple-slider-icon"></i>
+		</button>
+
+		<div class="fl-simple-slider-track-container">
+
+			<div class="fl-simple-slider-track">
+
+				<div class="fl-simple-slider-slide">
+					
+					<img src="images/posts/post_01.jpg" class="simple-slide-img">
+
+					<div class="simple-slider-con">
+
+						<p class="simple-slider-title fl-title-3">NEWS TITLE, NEWS TITLE</p>
+
+						<p class="simple-slider-text">
+							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
+						</p>
+
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link gold-btn-color">VISIT THE PAGE</a>
+
+					</div>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<img src="images/posts/side_post_04.jpg" class="simple-slide-img">
+
+					<div class="simple-slider-con">
+
+						<p class="simple-slider-title fl-title-3">NEWS TITLE, NEWS TITLE</p>
+
+						<p class="simple-slider-text">
+							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
+						</p>
+
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link gold-btn-color">VISIT THE PAGE</a>
+
+					</div>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<img src="images/posts/side_post_06.png" class="simple-slide-img">
+
+					<div class="simple-slider-con">
+
+						<p class="simple-slider-title fl-title-3">NEWS TITLE, NEWS TITLE</p>
+
+						<p class="simple-slider-text">
+							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
+						</p>
+
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link gold-btn-color">VISIT THE PAGE</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>	
+
+	</div>
+
+	<!-- the-end-of-flash-simple-slider -->
+
+
+
+	<!-- actual-news -->
+
+	<div class="actual-news">
+
+		<ul class="actual-news-list">
+			
+			<li class="actual-news-item">
+
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
+					
+					<img src="images/posts/post_07.jpg" class="actual-news-img">
+
+					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
+
+					<p class="actual-news-text">
+						Text about news, text about news, <span>text about news.</span>
+					</p>
+
+				</a>
+				
+			</li>
+
+			<li class="actual-news-item">
+
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
+					
+					<img src="images/posts/side_post_04.jpg" class="actual-news-img">
+
+					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
+
+					<p class="actual-news-text">
+						Text about news, text about news, <span>text about news.</span>
+					</p>
+
+				</a>
+				
+			</li>
+
+			<li class="actual-news-item">
+
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
+					
+					<img src="images/posts/post_10.jpg" class="actual-news-img">
+
+					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
+
+					<p class="actual-news-text">
+						Text about news, text about news, <span>text about news.</span>
+					</p>
+
+				</a>
+				
+			</li>
+
+			<li class="actual-news-item">
+
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
+					
+					<img src="images/posts/post_04.jpg" class="actual-news-img">
+
+					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
+
+					<p class="actual-news-text">
+						Text about news, text about news, <span>text about news.</span>
+					</p>
+
+				</a>
+				
+			</li>
+
+		</ul>
+		
+
+	</div>
+
+	<!-- the-end-of-actual-news -->
 
 
 
@@ -743,7 +1013,7 @@
 		<div class="fl-gallery-main-con" id="gallery">
 
 			<!-- texts -->
-			<h1 class="fl-gallery-title">NEWS NEWS NEWS NEWS GALLERY</h1>
+			<h1 class="fl-gallery-title fl-title-3">NEWS NEWS NEWS NEWS GALLERY</h1>
 
 			<p class="fl-gallery-text" id="galleryText">
 				Text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery, text about gallery.
@@ -867,7 +1137,7 @@
 
 			<!-- the-end-of-modal-container -->
 
-			<div class="fl-gallery-con-parent">
+			<div class="fl-gallery-con-parent"  draggable="false">
 
 				<!-- buttons -->
 
@@ -891,7 +1161,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_01.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -901,7 +1171,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_02.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -911,7 +1181,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_03.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -921,7 +1191,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_04.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -931,7 +1201,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_05.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -941,7 +1211,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_06.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -951,7 +1221,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_07.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -961,7 +1231,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_08.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -971,7 +1241,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_09.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -981,7 +1251,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_10.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -991,7 +1261,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_11.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1001,7 +1271,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_12.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1011,7 +1281,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_13.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1021,7 +1291,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_14.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1031,7 +1301,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_15.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1041,7 +1311,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_16.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1051,7 +1321,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_17.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1061,7 +1331,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_18.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1071,7 +1341,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_19.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1081,7 +1351,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_20.jpeg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1091,7 +1361,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_21.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1101,7 +1371,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_22.png" class="fl-gallery-img" >
 
 								</a>
 
@@ -1111,7 +1381,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_23.png" class="fl-gallery-img" >
 
 								</a>
 
@@ -1121,7 +1391,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_01.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1131,7 +1401,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_02.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1141,7 +1411,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_03.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1151,7 +1421,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_04.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1161,7 +1431,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_05.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1171,7 +1441,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_06.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1181,7 +1451,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_07.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1191,7 +1461,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_08.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1201,7 +1471,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_09.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1211,7 +1481,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_10.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1221,7 +1491,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_11.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1231,7 +1501,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_12.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1241,7 +1511,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_13.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1251,7 +1521,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_14.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1261,7 +1531,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_15.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1271,7 +1541,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_16.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1281,7 +1551,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_17.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1291,7 +1561,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_18.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1301,7 +1571,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_19.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1311,7 +1581,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_20.jpeg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1321,7 +1591,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_21.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1331,7 +1601,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_22.png" class="fl-gallery-img" >
 
 								</a>
 
@@ -1341,7 +1611,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_23.png" class="fl-gallery-img" >
 
 								</a>
 
@@ -1351,7 +1621,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_01.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1361,7 +1631,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_02.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1371,7 +1641,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_03.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1381,7 +1651,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_04.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1391,7 +1661,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_05.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1401,7 +1671,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_06.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1411,7 +1681,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_07.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1421,7 +1691,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_08.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1431,7 +1701,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_09.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1441,7 +1711,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_10.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1451,7 +1721,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_11.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1461,7 +1731,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_12.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1471,7 +1741,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_13.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1481,7 +1751,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_14.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1491,7 +1761,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_15.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1501,7 +1771,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_16.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1511,7 +1781,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_17.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1521,7 +1791,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_18.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1531,7 +1801,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_19.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1541,17 +1811,287 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_20.jpeg" class="fl-gallery-img" >
 
 								</a>
 
 							</li>
 
-														<li class="fl-gallery-item">
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_21.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_22.png" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_23.png" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_01.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_02.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_03.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_04.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_05.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_06.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_07.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_08.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_09.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_10.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_11.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_12.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_13.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_14.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_15.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_16.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_17.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_18.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_19.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_20.jpeg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_21.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_22.png" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_23.png" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
+
+								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
+
+									<img src="images/gallery/img_01.jpg" class="fl-gallery-img" >
+
+								</a>
+
+							</li>
+
+							<li class="fl-gallery-item">
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_02.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1561,7 +2101,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_03.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1571,7 +2111,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_04.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1581,7 +2121,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_05.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1591,7 +2131,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_06.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1601,7 +2141,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_07.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1611,7 +2151,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_08.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1621,7 +2161,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_09.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1631,7 +2171,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_10.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1641,7 +2181,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_11.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1651,7 +2191,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_12.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1661,7 +2201,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_01.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_13.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1671,7 +2211,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_02.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_14.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1681,7 +2221,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_03.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_15.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1691,7 +2231,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_04.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_16.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1701,7 +2241,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_05.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_17.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1711,7 +2251,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_06.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_18.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1721,7 +2261,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_07.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_19.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1731,7 +2271,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_08.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_20.jpeg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1741,7 +2281,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_09.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_21.jpg" class="fl-gallery-img" >
 
 								</a>
 
@@ -1751,7 +2291,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_10.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_22.png" class="fl-gallery-img" >
 
 								</a>
 
@@ -1761,7 +2301,7 @@
 
 								<a href="" class="fl-gallery-link fl-gallery-modal-btn">
 
-									<img src="images/gallery/img_11.jpg" class="fl-gallery-img">
+									<img src="images/gallery/img_23.png" class="fl-gallery-img" >
 
 								</a>
 
@@ -1799,18 +2339,10 @@
 		<!-- the-end-of-fl-gallery -->
 
 
-		<!-- the-end-of-fl-gallery -->
 
 		<!-- fl-post-list -->
 
 		<ul class="fl-post-list">
-
-			<li class="fl-post-item fl-post-date-item fl-hide-in-small-screen">
-
-				<span class="fl-post-date-day">29 March, 2022</span>
-				<span class="fl-post-date-hour">08:57</span>
-
-			</li>
 
 			<li class="fl-post-item">
 
@@ -1868,22 +2400,6 @@
 
 			<li class="fl-post-item fl-post-divider-item"></li>
 
-			<li class="fl-post-item">
-
-				<!-- <div class="fl-font-size-changer-con" target=".fl-post-text">
-				  	
-				  	<button type="button" class="fl-font-size-changer-minus fl-font-size-changer-btn" disabled="">
-				  		A <i class="fa fa-minus fl-font-size-changer-icon"></i>
-				  	</button>
-
-				  	<button type="button" class="fl-font-size-changer-plus fl-font-size-changer-btn">
-				  		A <i class="fa fa-plus fl-font-size-changer-icon"></i>
-				  	</button>
-
-				</div> -->
-
-			</li>
-
 		</ul>
 
 		<!-- the-end-of-fl-post-list -->
@@ -1910,8 +2426,6 @@
 			</div>
 
 		</form>
-
-		<!-- the-end-of-fl-post-comment-form -->
 
 	</div>
 
@@ -2940,781 +3454,628 @@
 		<!-- the-end-of-comments-list -->
 
 	</div>
-
 	<!-- the-end-of-flash-comments-container -->
 
 
+	<!-- under-post-container -->
 
-	<!-- videos -->
+	<div class="under-posts-con">
 
-	<div class="videos-main-con">
-		
-		<div class="videos-head">
-			
-			<h3 class="videos-title">
-				<i class="fa fa-film"></i><span>EXPLORE</span> OUR VIDEOS
-			</h3>
+		<!-- flash-simple-slider -->
+
+		<div class="fl-simple-slider" id="bottomSimpleSlider">
+				
+			<!-- ---arrows--- -->	
+			<button type="button" class="fl-simple-slider-prev fl-simple-slider-arrow">
+				<i class="fa fa-chevron-left fl-simple-slider-icon"></i>
+			</button>
+
+			<button type="button" class="fl-simple-slider-next fl-simple-slider-arrow">
+				<i class="fa fa-chevron-right fl-simple-slider-icon"></i>
+			</button>
+
+			<ul class="fl-simple-slider-list">
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">INLAND</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">ABROAD</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">MYSTERY</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">POLITICS</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">ENTERTAINMENT</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">SPORT</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">FOOTBALL</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">LIFESTYLE</button>
+				</li>
+
+				<li class="fl-simple-slider-item">
+					<button type="button" class="fl-simple-slider-btn">WAR</button>
+				</li>
+
+			</ul>
+
+			<!-- <i class="fa fa-play simple-slide-icon"></i> -->
+
+			<div class="fl-simple-slider-track-container">
+
+				<div class="fl-simple-slider-track">
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/post_01.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/post_02.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/post_04.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/side_post_05.png" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/side_post_03.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/sport/img_04.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/sport/img_02.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/post_10.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+					<div class="fl-simple-slider-slide">
+						
+						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+							<img src="images/posts/post_03.jpg" class="simple-slide-img">
+
+							<div class="simple-slider-con">
+
+									<center>
+										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
+									</center>	
+
+									<p class="simple-slider-text">
+										Text about news, text about news.
+									</p>
+
+							</div>
+
+						</a>
+
+					</div>
+
+				</div>	
+
+			</div>						
 
 		</div>
 
-		<div class="videos-con fl-slick-arrows">
+		<!-- the-end-of-flash-simple-slider -->
+
+		<div class="side-post">
+
+			<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="side-post-link">
 			
-			<div class="videos-item">
+				<img src="images/posts/side_post_04.jpg" class="side-post-img">
 
-				<div class="videos-item-text-con">
+				<p class="side-post-title fl-title-5">NEWS TITLE, NEWS TITLE</p>
 
-					<h3 class="videos-item-title">
-						NEWS NAME <span>(2022)</span>
-					</h3>
+				<img src="images/navbar-brand.png" class="side-post-brand">
 
-					<div class="videos-item-stars-con">
-						
-						<span class="videos-item-stars-num">4.0</span>
+				<p class="side-post-text">Text about news, text about news.</p>
 
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star videos-item-star"></i>
-
-					</div>
-
-					<div class="videos-item-img-con videos-item-img-con-in-smaller-screen">
-
-						<a href="#" class="videos-item-img-play-btn">
-							<i class="fa fa-play"></i>
-						</a>
-						
-						<img src="images/posts/side_post_01.jpg" class="videos-item-img">
-
-					</div>
-
-					<p class="videos-item-date">28 March, 27 Minutes</p>
-
-					<p class="videos-item-text">
-						Text about video, text about video, text about video, text about video, text about video, text about video, text about video, text about video.
-						<a href="#" class="videos-item-more-btn">More</a>
-					</p>
-
-					<div class="videos-item-info-con">
-
-						<p class="videos-item-info">
-							<span>Country: </span> Azerbaijan
-						</p>
-
-						<p class="videos-item-info">
-							<span>City: </span> Baku
-						</p>
-
-						<p class="videos-item-info">
-							<span>Type: </span> Health
-						</p>
-
-					</div>
-
-					<a href="#" class="videos-item-visit-page-btn">
-						<i class="fa fa-play"></i> VISIT NEWS PAGE
-					</a>
-
-				</div>	
-
-				<div class="videos-item-img-con">
-
-					<a href="#" class="videos-item-img-play-btn">
-						<i class="fa fa-play"></i>
-					</a>
-					
-					<img src="images/posts/side_post_01.jpg" class="videos-item-img">
-
-				</div>
-				
-			</div>
-
-			<div class="videos-item">
-
-				<div class="videos-item-text-con">
-
-					<h3 class="videos-item-title">
-						NEWS NAME <span>(2022)</span>
-					</h3>
-
-					<div class="videos-item-stars-con">
-						
-						<span class="videos-item-stars-num">5.0</span>
-
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-
-					</div>
-
-					<div class="videos-item-img-con videos-item-img-con-in-smaller-screen">
-
-						<a href="#" class="videos-item-img-play-btn">
-							<i class="fa fa-play"></i>
-						</a>
-						
-						<img src="images/posts/side_post_02.jpg" class="videos-item-img">
-
-					</div>
-
-					<p class="videos-item-date">28 March, 30 Minutes</p>
-
-					<p class="videos-item-text">
-						Text about video, text about video, text about video, text about video, text about video, text about video, text about video, text about video.
-						<a href="#" class="videos-item-more-btn">More</a>
-					</p>
-
-					<div class="videos-item-info-con">
-
-						<p class="videos-item-info">
-							<span>Country: </span> Azerbaijan
-						</p>
-
-						<p class="videos-item-info">
-							<span>City: </span> Baku
-						</p>
-
-						<p class="videos-item-info">
-							<span>Type: </span> Health
-						</p>
-
-					</div>
-
-					<a href="#" class="videos-item-visit-page-btn">
-						<i class="fa fa-play"></i> VISIT NEWS PAGE
-					</a>
-
-				</div>	
-
-				<div class="videos-item-img-con">
-
-					<a href="#" class="videos-item-img-play-btn">
-						<i class="fa fa-play"></i>
-					</a>
-					
-					<img src="images/posts/side_post_02.jpg" class="videos-item-img">
-
-				</div>
-				
-			</div>
-
-			<div class="videos-item">
-
-				<div class="videos-item-text-con">
-
-					<h3 class="videos-item-title">
-						NEWS NAME <span>(2022)</span>
-					</h3>
-
-					<div class="videos-item-stars-con">
-						
-						<span class="videos-item-stars-num">3.0</span>
-
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star videos-item-star"></i>
-						<i class="fa fa-star videos-item-star"></i>
-
-					</div>
-
-					<div class="videos-item-img-con videos-item-img-con-in-smaller-screen">
-
-						<a href="#" class="videos-item-img-play-btn">
-							<i class="fa fa-play"></i>
-						</a>
-						
-						<img src="images/posts/side_post_03.jpg" class="videos-item-img">
-
-					</div>
-
-					<p class="videos-item-date">28 March, 21 Minutes</p>
-
-					<p class="videos-item-text">
-						Text about video, text about video, text about video, text about video, text about video, text about video, text about video, text about video.
-						<a href="#" class="videos-item-more-btn">More</a>
-					</p>
-
-					<div class="videos-item-info-con">
-
-						<p class="videos-item-info">
-							<span>Country: </span> Azerbaijan
-						</p>
-
-						<p class="videos-item-info">
-							<span>City: </span> Baku
-						</p>
-
-						<p class="videos-item-info">
-							<span>Type: </span> Health
-						</p>
-
-					</div>
-
-					<a href="#" class="videos-item-visit-page-btn">
-						<i class="fa fa-play"></i> VISIT NEWS PAGE
-					</a>
-
-				</div>	
-
-				<div class="videos-item-img-con">
-
-					<a href="#" class="videos-item-img-play-btn">
-						<i class="fa fa-play"></i>
-					</a>
-					
-					<img src="images/posts/side_post_03.jpg" class="videos-item-img">
-
-				</div>
-				
-			</div>
-
-			<div class="videos-item">
-
-				<div class="videos-item-text-con">
-
-					<h3 class="videos-item-title">
-						NEWS NAME <span>(2022)</span>
-					</h3>
-
-					<div class="videos-item-stars-con">
-						
-						<span class="videos-item-stars-num">4.0</span>
-
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star videos-item-star"></i>
-
-					</div>
-
-					<div class="videos-item-img-con videos-item-img-con-in-smaller-screen">
-
-						<a href="#" class="videos-item-img-play-btn">
-							<i class="fa fa-play"></i>
-						</a>
-						
-						<img src="images/posts/side_post_04.jpeg" class="videos-item-img">
-
-					</div>
-
-					<p class="videos-item-date">28 March, 54 Minutes</p>
-
-					<p class="videos-item-text">
-						Text about video, text about video, text about video, text about video, text about video, text about video, text about video, text about video.
-						<a href="#" class="videos-item-more-btn">More</a>
-					</p>
-
-					<div class="videos-item-info-con">
-
-						<p class="videos-item-info">
-							<span>Country: </span> Azerbaijan
-						</p>
-
-						<p class="videos-item-info">
-							<span>City: </span> Baku
-						</p>
-
-						<p class="videos-item-info">
-							<span>Type: </span> Health
-						</p>
-
-					</div>
-
-					<a href="#" class="videos-item-visit-page-btn">
-						<i class="fa fa-play"></i> VISIT NEWS PAGE
-					</a>
-
-				</div>	
-
-				<div class="videos-item-img-con">
-
-					<a href="#" class="videos-item-img-play-btn">
-						<i class="fa fa-play"></i>
-					</a>
-					
-					<img src="images/posts/side_post_04.jpeg" class="videos-item-img">
-
-				</div>
-				
-			</div>
-
-			<div class="videos-item">
-
-				<div class="videos-item-text-con">
-
-					<h3 class="videos-item-title">
-						NEWS NAME <span>(2022)</span>
-					</h3>
-
-					<div class="videos-item-stars-con">
-						
-						<span class="videos-item-stars-num">5.0</span>
-
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-
-					</div>
-
-					<div class="videos-item-img-con videos-item-img-con-in-smaller-screen">
-
-						<a href="#" class="videos-item-img-play-btn">
-							<i class="fa fa-play"></i>
-						</a>
-						
-						<img src="images/posts/side_post_05.png" class="videos-item-img">
-
-					</div>
-
-					<p class="videos-item-date">28 March, 36 Minutes</p>
-
-					<p class="videos-item-text">
-						Text about video, text about video, text about video, text about video, text about video, text about video, text about video, text about video.
-						<a href="#" class="videos-item-more-btn">More</a>
-					</p>
-
-					<div class="videos-item-info-con">
-
-						<p class="videos-item-info">
-							<span>Country: </span> Azerbaijan
-						</p>
-
-						<p class="videos-item-info">
-							<span>City: </span> Baku
-						</p>
-
-						<p class="videos-item-info">
-							<span>Type: </span> Health
-						</p>
-
-					</div>
-
-					<a href="#" class="videos-item-visit-page-btn">
-						<i class="fa fa-play"></i> VISIT NEWS PAGE
-					</a>
-
-				</div>	
-
-				<div class="videos-item-img-con">
-
-					<a href="#" class="videos-item-img-play-btn">
-						<i class="fa fa-play"></i>
-					</a>
-					
-					<img src="images/posts/side_post_05.png" class="videos-item-img">
-
-				</div>
-				
-			</div>
-
-			<div class="videos-item">
-
-				<div class="videos-item-text-con">
-
-					<h3 class="videos-item-title">
-						NEWS NAME <span>(2022)</span>
-					</h3>
-
-					<div class="videos-item-stars-con">
-						
-						<span class="videos-item-stars-num">4.0</span>
-
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star fl-active videos-item-star"></i>
-						<i class="fa fa-star videos-item-star"></i>
-
-					</div>
-
-					<div class="videos-item-img-con videos-item-img-con-in-smaller-screen">
-
-						<a href="#" class="videos-item-img-play-btn">
-							<i class="fa fa-play"></i>
-						</a>
-						
-						<img src="images/posts/side_post_06.png" class="videos-item-img">
-
-					</div>
-
-					<p class="videos-item-date">28 March, 15 Minutes</p>
-
-					<p class="videos-item-text">
-						Text about video, text about video, text about video, text about video, text about video, text about video, text about video, text about video.
-						<a href="#" class="videos-item-more-btn">More</a>
-					</p>
-
-					<div class="videos-item-info-con">
-
-						<p class="videos-item-info">
-							<span>Country: </span> Azerbaijan
-						</p>
-
-						<p class="videos-item-info">
-							<span>City: </span> Baku
-						</p>
-
-						<p class="videos-item-info">
-							<span>Type: </span> Health
-						</p>
-
-					</div>
-
-					<a href="#" class="videos-item-visit-page-btn">
-						<i class="fa fa-play"></i> VISIT NEWS PAGE
-					</a>
-
-				</div>	
-
-				<div class="videos-item-img-con">
-
-					<a href="#" class="videos-item-img-play-btn">
-						<i class="fa fa-play"></i>
-					</a>
-					
-					<img src="images/posts/side_post_06.png" class="videos-item-img">
-
-				</div>
-				
-			</div>
-
-
-		</div>
-
-	</div>
-
-	<!-- the-end-of-videos -->
-
-
-
-	<!-- download-app -->
-
-	<div class="download-app-main-con">
-		
-		<div class="download-app-con">
-			
-			<h3 class="download-app-top-title">MOBILE APP</h3>
-
-			<h1 class="download-app-title fl-title-2">Download App for<br>Read All Our News</h1>
-
-			<h3 class="download-app-bottom-title">
-				OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE, OTHER TITLE.
-			</h3>
-
-			<p class="download-app-text">
-				Text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app, text about our app.
-			</p>
-
-			<a href="#" class="download-app-link download-app-on-google-play-btn">
-				<i class="fa fa-mobile"></i>
-				<span>
-					<span>Get it on</span> <br>
-					Google Play
-				</span>
 			</a>
 
-			<a href="#" class="download-app-link download-app-on-apple-store-btn">
-				<i class="fa fa-mobile"></i>
-				<span>
-					<span>Get it on</span> <br>
-					Apple Store
-				</span>
-			</a>
-
-
-
 		</div>
 
-		<div class="download-app-con download-app-img-con">
+	</div>	
 
-			<img src="images/app.png" class="download-app-img">
 
-		</div>
 
+	<!-- sport -->
+
+	<div class="sport-con">
+
+		<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber" class="sport-title-link fl-title-4">
+			SPORT <i class="fa fa-chevron-right"></i>
+		</a>
+
+		<p class="sport-title-link-underline"></p>
+
+		<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-top-con">
+
+			<img src="images/sport/bg_img.jpg" class="sport-top-img">
+
+			<div class="sport-top-text-con">
+
+				<p class="sport-top-title fl-title-5">News title, news title, news title.</p>
+
+				<p class="sport-top-text fl-title-2">
+					Text about news, text about news, text about news.
+				</p>
+
+			</div>
+
+		</a>
+
+		<ul class="sport-list fl-list fl-list-3 fl-small-screen-list-2 fl-smaller-screen-list-1">
+			
+			<li class="sport-item fl-list-item">
+					
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
+					
+					<div class="sport-img-con">
+						<img src="images/icon.png" class="sport-icon">
+						<img src="images/sport/img_01.jpg" class="sport-img">
+					</div>
+
+					<p class="sport-first-title">News title, news title.</p>
+
+					<p class="sport-second-title">News title, news title, news title.</p>
+
+					<p class="sport-text">
+						Text about news, text about news, text about news, text about news, text about news, text about news.
+					</p>
+
+				</a>
+
+			</li>
+
+			<li class="sport-item fl-list-item">
+					
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
+					
+					<div class="sport-img-con">
+						<img src="images/icon.png" class="sport-icon">
+						<img src="images/sport/img_02.jpg" class="sport-img">
+					</div>
+
+					<p class="sport-first-title">News title, news title.</p>
+
+					<p class="sport-second-title">News title, news title, news title.</p>
+
+					<p class="sport-text">
+						Text about news, text about news, text about news, text about news, text about news, text about news.
+					</p>
+
+				</a>
+
+			</li>
+
+			<li class="sport-item fl-list-item">
+					
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
+					
+					<div class="sport-img-con">
+						<img src="images/icon.png" class="sport-icon">
+						<img src="images/sport/img_03.jpg" class="sport-img">
+					</div>
+
+					<p class="sport-first-title">News title, news title.</p>
+
+					<p class="sport-second-title">News title, news title, news title.</p>
+
+					<p class="sport-text">
+						Text about news, text about news, text about news, text about news, text about news, text about news.
+					</p>
+
+				</a>
+
+			</li>
+
+			<li class="sport-item fl-list-item">
+					
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
+					
+					<div class="sport-img-con">
+						<img src="images/icon.png" class="sport-icon">
+						<img src="images/sport/img_04.jpg" class="sport-img">
+					</div>
+
+					<p class="sport-first-title">News title, news title.</p>
+
+					<p class="sport-second-title">News title, news title, news title.</p>
+
+					<p class="sport-text">
+						Text about news, text about news, text about news, text about news, text about news, text about news.
+					</p>
+
+				</a>
+
+			</li>
+
+			<li class="sport-item fl-list-item">
+					
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
+					
+					<div class="sport-img-con">
+						<img src="images/icon.png" class="sport-icon">
+						<img src="images/sport/img_05.jpeg" class="sport-img">
+					</div>
+
+					<p class="sport-first-title">News title, news title.</p>
+
+					<p class="sport-second-title">News title, news title, news title.</p>
+
+					<p class="sport-text">
+						Text about news, text about news, text about news, text about news, text about news, text about news.
+					</p>
+
+				</a>
+
+			</li>
+
+			<li class="sport-item fl-list-item">
+					
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
+					
+					<div class="sport-img-con">
+						<img src="images/icon.png" class="sport-icon">
+						<img src="images/sport/img_06.jpg" class="sport-img">
+					</div>
+
+					<p class="sport-first-title">News title, news title.</p>
+
+					<p class="sport-second-title">News title, news title, news title.</p>
+
+					<p class="sport-text">
+						Text about news, text about news, text about news, text about news, text about news, text about news.
+					</p>
+
+				</a>
+
+			</li>
+
+		</ul>
+		
 	</div>
 
-	<!-- the-end-of-download-app -->
+	<!-- the-end-of-sport -->
 
 
 
 	<footer class="fl-footer">
 
-		<ul class="fl-footer-list" id="aboutUs">
-			
-			<p class="fl-footer-title">ABOUT BIZIM-XEBER</p>
+		<div class="footer-con">
+
+			<p class="fl-title-5 footer-title">DUNYADAN <span>XEBER</span></p>
+
+			<p class="footer-text">
+				Text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us.
+			</p>
+
+		</div>
+
+		<ul class="fl-footer-list" id="companyInfo">
+
+			<li class="fl-footer-title">Company Info</li>	
 
 			<li class="fl-footer-item">
-				
-				<a href="#" class="fl-footer-link">
-					About Us 
-				</a>
-
+				Text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us.
 			</li>	
 
 			<li class="fl-footer-item">
 
 				<a href="#" class="fl-footer-link">
-					Bizim-Xeber Academy 
+					<i class="fa fa-facebook fl-footer-icon"></i> 
 				</a>
 
-			</li>	
+				<a href="#" class="fl-footer-link">
+					<i class="fa fa-twitter fl-footer-icon"></i> 
+				</a>
+
+				<a href="#" class="fl-footer-link">
+					<i class="fa fa-instagram fl-footer-icon"></i> 
+				</a>
+
+				<a href="#" class="fl-footer-link">
+					<i class="fa fa-youtube fl-footer-icon"></i> 
+				</a>
+
+			</li>		
+
+		</ul>
+
+		<ul class="fl-footer-list" id="latestNews">
+
+			<li class="fl-footer-title">Latest News</li>		
 
 			<li class="fl-footer-item">
 
-				<a href="#" class="fl-footer-link">
-					Bizim-Xeber Services 
-				</a>
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-footer-link fl-overflow-auto footer-link-has-image">
+					
+					<div class="footer-img-con">
+						<img src="images/posts/side_post_01.jpg" class="footer-img">
+					</div> 
 
-			</li>	
+					<p class="footer-name">News title</p>
 
-			<li class="fl-footer-item">
+					<p class="footer-date">Mar 28, 2022</p>
 
-				<a href="#" class="fl-footer-link">
-					FAQ 
 				</a>
 
 			</li>
 
-			<li class="fl-footer-item">	
+			<li class="fl-footer-item">
 
-				<a href="#" class="fl-footer-link">
-					Contact Us
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-footer-link fl-overflow-auto footer-link-has-image">
+					
+					<div class="footer-img-con">
+						<img src="images/posts/side_post_02.jpg" class="footer-img">
+					</div> 
+
+					<p class="footer-name">News title</p>
+
+					<p class="footer-date">Mar 29, 2022</p>
+
 				</a>
 
-			</li>	
+			</li>
+
+			<li class="fl-footer-item">
+
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-footer-link fl-overflow-auto footer-link-has-image">
+					
+					<div class="footer-img-con">
+						<img src="images/posts/side_post_03.jpg" class="footer-img">
+					</div> 
+
+					<p class="footer-name">News title</p>
+
+					<p class="footer-date">Mar 30, 2022</p>
+
+				</a>
+
+			</li>		
+
+		</ul>
+
+		<ul class="fl-footer-list" id="pages">
+
+			<li class="fl-footer-title">Pages</li>		
+
+			<li class="fl-footer-item">
+
+				<a href="#" class="fl-footer-link">
+					About Us
+				</a>
+
+			</li>
+
+			<li class="fl-footer-item">
+
+				<a href="#" class="fl-footer-link">
+					Services
+				</a>
+
+			</li>
+
+			<li class="fl-footer-item">
+
+				<a href="#" class="fl-footer-link">
+					Experts
+				</a>
+
+			</li>
+
+			<li class="fl-footer-item">
+
+				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/gallery" class="fl-footer-link">
+					Gallery
+				</a>
+
+			</li>
+
+			<li class="fl-footer-item">
+
+				<a href="#" class="fl-footer-link">
+					Blog
+				</a>
+
+			</li>		
 
 		</ul>
    
 
+		<ul class="fl-footer-list" id="quickContact">
 
-		<ul class="fl-footer-list" id="getInvolved">
-			
-			<p class="fl-footer-title">GET INVOLVED</p>
-
-			<li class="fl-footer-item">
-				
-				<a href="#" class="fl-footer-link">
-					Submit Your News 
-				</a>
-
-			</li>	
+			<li class="fl-footer-title">Quick Contact</li>		
 
 			<li class="fl-footer-item">
 
-				<a href="#" class="fl-footer-link">
-					How To Be Part of Bizim-Xeber 
-				</a>
+				<form method="POST" target="contact.php" class="fl-footer-form">
+					
+					<input type="email" name="email" id="email" class="fl-footer-input" placeholder="Enter Email">
 
-			</li>	
+					<textarea name="text" id="text" class="fl-footer-input fl-footer-message" placeholder="Enter Message" rows="3"></textarea>
 
-			<li class="fl-footer-item">	
+					<input type="submit" name="submit" value="Send Message" class="fl-footer-submit">
 
-				<a href="#" class="fl-footer-link">
-					Student Internships
-				</a>
+				</form>
 
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					Partners We Work With 
-				</a>
-
-			</li>	
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					Advertise With Us 
-				</a>
-
-			</li>	
+			</li>		
 
 		</ul>
-
-
-
-		<ul class="fl-footer-list" id="newsType">
-			
-			<p class="fl-footer-title">CHOOSE NEWS TYPE & CATEGORY</p>
-
-			<div class="fl-footer-list-divider">
-
-				<li class="fl-footer-item">
-					
-					<a href="https://ilhamgurbanly10.github.io/bizim-xeber/" class="fl-footer-link">
-						All 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						World 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						US Politics 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						Business 
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Health
-					</a>
-
-				</li>
-
-			</div>
-			
-			<div class="fl-footer-list-divider">	
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Entertainment
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Style
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Travel
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						Sports
-					</a>
-
-				</li>
-
-			</div>	
-
-		</ul>
-
-		<div id="footerContainer">
-			
-			<ul class="fl-footer-list fl-footer-inline-list" id="footerAppList">
-				
-				<li class="fl-footer-item">
-					
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-facebook fl-footer-icon"></i> 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-instagram fl-footer-icon"></i> 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-twitter fl-footer-icon"></i> 
-					</a>
-
-				</li>	
-
-				<li class="fl-footer-item">
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-youtube fl-footer-icon"></i> 
-					</a>
-
-				</li>
-
-				<li class="fl-footer-item">	
-
-					<a href="#" class="fl-footer-link">
-						<i class="fa fa-whatsapp fl-footer-icon"></i> 
-					</a>
-
-				</li>			
-
-			</ul>
-
-			<a href="https://ilhamgurbanly10.github.io/bizim-xeber/" class="fl-navbar-brand">
-				<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
-			</a>
-
-		</div>
 
 	</footer>
 
-	<ul class="fl-footer-list fl-footer-inline-list" id="footerBottomList">
-
-		<li class="fl-footer-item">	
-				© 2022 bizim-xeber.az  ALL RIGHTS RESERVED 
-		</li>	
-
-		<li class="fl-footer-item">
-
-			<a href="#" class="fl-footer-link">
-				TERMS & CONDITIONS 
-			</a>
-
-		</li>	
-
-		<li class="fl-footer-item">	
-
-			<a href="#" class="fl-footer-link">
-				PRIVACY POLICY
-			</a>
-
-		</li>
-
-		<li class="fl-footer-item">
-
-			<a href="#" class="fl-footer-link">
-				COMMUNITY CODE 
-			</a>
-
-		</li>	
-
-	</ul>
-
-  
+	<div class="fl-footer-bottom-con">
+		Copyright ©2022. All Rights Reserved
+	</div>
 
 	<!-- fl-back-to-top-button -->
 
@@ -3733,6 +4094,7 @@
 	<script type="text/javascript" src="js/flash/flash.min.js"></script>
 	<script type="text/javascript" src="js/flash/flash-header.min.js"></script>
 	<script type="text/javascript" src="js/flash/flash-post.min.js"></script>
+	<script type="text/javascript" src="js/flash/flash-simple-slider.js"></script>
 	<script type="text/javascript" src="js/flash/flash-gallery.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/body.js"></script>

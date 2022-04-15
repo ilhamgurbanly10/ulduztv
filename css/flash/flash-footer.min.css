@@ -1,9 +1,8 @@
 /* fl-footer */
 
 .fl-footer {
-	border-top: 7px solid #cfa144;
-	background-color: #323542;
-	padding: 5vw 10vw;
+	background-color: #313440;
+	padding: 3rem 10vw;
 	margin-top: 12vw;
 	display: -ms-flexbox;
 	display: flex;
@@ -12,17 +11,18 @@
 	-ms-flex-direction: row;
 	justify-content: space-between;
 	-ms-flex-pack: justify;	
-	align-content: center;
-	-ms-flex-line-pack: center;
+	align-content: flex-start;
+	-ms-flex-line-pack: start;
 	align-items: flex-start;
   	-ms-flex-align: start;	
+  	position: relative;
 }
 
 .fl-footer-title {
 	font-weight: bold;
 	color: white;
 	font-size: 18px;
-	margin-bottom: 2vw;
+	margin-bottom: 2rem;
 }
 
 .fl-footer-list-divider {
@@ -36,12 +36,12 @@
 }	
 
 .fl-footer-item { 
-	margin-top: 1vw;
+	margin-top: 1rem;
 }
 
 .fl-footer-inline-list .fl-footer-item {
 	display: inline-block;
-	margin-right: 1vw;
+	margin-right: 1rem;
 }
 
 .fl-footer-inline-list .fl-footer-item:last-child {
@@ -49,9 +49,10 @@
 }
 
 .fl-footer-link {
-	color: white;
+	color: #9e9f9f;
 	transition: color 0.3s ease;
 	font-weight: normal;
+	white-space: normal;
 }
 
 @media (hover: hover) {
@@ -70,11 +71,80 @@
 	margin-right: 0.5vw;
 }
 
+.fl-footer-form {
+
+}
+
+.fl-footer-form > *:not(:first-child) {
+	margin-top: 2rem;
+}
+
+.fl-footer-input {
+	outline: 0 !important;
+	padding: 1rem;
+	border-radius: 0;
+	border: 1px solid #9e9f9f;
+	background-color: #22252a;
+	color: #9e9f9f;
+	display: block;
+	width: calc(100% - 2rem - 2px);
+}
+
+.fl-footer-input::-webkit-input-placeholder {
+  	color: #9e9f9f;
+}
+
+.fl-footer-input::-moz-placeholder {
+  	color: #9e9f9f;
+}
+
+.fl-footer-input::-ms-input-placeholder {
+  	color: #9e9f9f;
+}
+
+.fl-footer-message {
+	resize: none;
+}
+
+.fl-footer-submit {
+	background-color: #22252a;
+	color: #9e9f9f;
+	padding: 0.5rem 1rem;
+	outline: 0 !important;
+	border: 1px solid #9e9f9f;
+	border-radius: 0;
+	cursor: pointer;
+	transition: color .3s ease, background-color .3s ease;
+}
+
+@media (hover: hover) {
+
+	.fl-footer-submit:hover {
+		color: #22252a;
+		background-color: white;
+	}
+
+}
+
+.fl-footer-submit:active {
+	color: #22252a;
+	background-color: white;
+}
+
+.fl-footer-bottom-con {
+	width: 90%;
+	padding: 1rem 5%;
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	background-color: #cfa144;
+}
+
 @media only screen and (max-width: 1024px) {
 
-	.fl-footer > * {
+	.fl-footer > *:not(.fl-navbar-brand) {
 		width: 100%;
-		margin-top: 5vw;
+		margin-top: 5rem;
 	}
 
 }	

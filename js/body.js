@@ -1,21 +1,20 @@
-// latest-news
 
-$('.latest-news-con').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  speed: 300,
+// calling-functions
+
+flashSimpleSlider("#headSimpleSlider", {
+	autoplay: true,
+	draggable: false
 });
 
-// the-end-of-latest-news
-
-// videos
-
-$('.videos-con').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  speed: 300,
+flashSimpleSlider("#bottomSimpleSlider", {
+	autoplay: true,
+	buttons: true,
+	dots: false
 });
 
-// the-end-of-videos
+flashScrollIndicator();
+
+flashLiveChat();
+
+// the-end-of-calling-functions
+

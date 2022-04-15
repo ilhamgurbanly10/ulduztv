@@ -6,6 +6,17 @@
 	margin: auto;
 }
 
+.fl-gallery-main-con * {
+
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	-webkit-touch-callout: none;
+    -khtml-user-select: none;
+    
+}
+
 .fl-gallery-title {
 	text-align: center;
 	color: #323542;
@@ -302,6 +313,7 @@
 	transform: translateX(0);
 }
 
+
 .fl-gallery-modal-img-con {
 	display: inline-block;
 	height: 100%;
@@ -312,6 +324,8 @@
 	vertical-align: middle;
 	width: 95%;
 	padding: 0 2.5% !important;
+	user-drag: none;
+    -webkit-user-drag: none;
 }
 
 .fl-gallery-modal-img {
@@ -321,6 +335,12 @@
 	height: 100%;
 	margin: 0 auto;
 	padding: 0;
+	user-drag: none;
+    -webkit-user-drag: none;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .fl-gallery-modal-images-indexes {
@@ -374,6 +394,8 @@
 	width: 100%;
 	padding: 0;
 	overflow: hidden;
+	user-drag: none;
+    -webkit-user-drag: none;
 }
 
 .fl-gallery-prev {
@@ -443,6 +465,8 @@
 	text-decoration: none;
 	outline: 0 !important;
 	overflow: hidden;
+	user-drag: none;
+    -webkit-user-drag: none;
 }
 
 .fl-gallery-link::before {
@@ -473,6 +497,8 @@
 	width: 100%;
 	height: auto;
 	min-height: 100%;
+	user-drag: none;
+    -webkit-user-drag: none;
 }
 
 .fl-gallery-dots-con {
