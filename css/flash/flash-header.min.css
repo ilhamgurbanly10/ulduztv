@@ -34,7 +34,7 @@
 	-ms-flex-line-pack: start;
 	align-items: center;
   	-ms-flex-align: center;	
-	background-color: #262626;
+	background-color: white;
 }
 
 .fl-loading-ani.fl-stop {
@@ -45,7 +45,7 @@
 	margin-top: 150px;
 	margin-bottom: 50px;
 	display: block;
-	width: 100px;
+	width: 170px;
 	height: auto;
 }
 
@@ -53,28 +53,36 @@
 	width: 100%;
 }
 
-.fl-loading-ani-path {
-	width: 80%;
+.fl-loading-ani-line {
+	width: 1000%;
 	position: relative;
-	height: 1px;
-	background-color: lightgrey;
+	height: 5px;
+	background-color: #df2b23;
 	margin: 3rem auto 0;
 	overflow: hidden;
 }
 
-.fl-loading-ani-line {
+.fl-loading-ani-line::before {
+	content: " ";
 	position: absolute;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #cfa144;
+	background-color: #21116c;
 	animation-name: line;
   	animation-duration: 2s;
   	animation-timing-function: linear;
   	animation-iteration-count: infinite;
-  	/*animation-direction: alternate;*/
   	animation-delay: 0s;
 }	
+
+@media only screen and (max-width: 1024px) {
+
+		.fl-loading-ani-img {
+			width: 100px;
+		}
+			
+}
 
 /* the-end-of-fl-loading-animation */
 
@@ -83,23 +91,20 @@
 
 .fl-navbar {
 	background-color: white;
-	padding: 0 12%;
-	position: relative;
+	padding: 0;
+	/*position: fixed;
 	top: 0;
 	left: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 9;
-	width: 76%;
+	z-index: 9;*/
+	width: 100%;
 	transition: background-color 0.5s ease;
 	display: -ms-flexbox;
 	display: flex;
 	flex-flow: row wrap;
 	-ms-flex-wrap: wrap;
 	-ms-flex-direction: row;
-	justify-content: space-between;
-	-ms-flex-pack: justify;	
+	justify-content: center;
+	-ms-flex-pack: center;	
 	align-content: flex-start;
 	-ms-flex-line-pack: start;
 	align-items: flex-start;
@@ -114,7 +119,7 @@
 }*/
 
 .fl-navbar-brand {
-	width: 80px;
+	width: 130px;
 	overflow: hidden;
 }
 
@@ -127,20 +132,21 @@
 
 .fl-navbar-toggler {
 	position: relative;
-    width: 50px;
+    width: auto;
     height: 40px;
     line-height: 40px;
     cursor: pointer;
-    background-color: #cfa144;
+    background-color: transparent;
     border: none;
     padding: 0 !important;
 }
 
 .fl-navbar-toggler-line {
 	position: relative;
-    display: block;
+    display: inline-block;
     margin: auto;
     transition: 0.3s all ease;
+    vertical-align: middle;
 } 
 
 .fl-navbar-toggler-line::before,
@@ -148,7 +154,7 @@
 .fl-navbar-toggler-line::after {
 	width: 24px;
     height: 2px;
-    background-color: white;
+    background-color: #afaeae;
     backface-visibility: hidden;
     border-radius: 5;
 }
@@ -170,14 +176,14 @@
 	.fl-navbar-toggler:hover .fl-navbar-toggler-line::before,
 	.fl-navbar-toggler:hover .fl-navbar-toggler-line,
 	.fl-navbar-toggler:hover .fl-navbar-toggler-line::after {
-		background-color: #e3e2e2;
+		background-color: #3a3939;
 	}
 }	
 
 .fl-navbar-toggler:active .fl-navbar-toggler-line::before,
 .fl-navbar-toggler:active .fl-navbar-toggler-line,
 .fl-navbar-toggler:active .fl-navbar-toggler-line::after {
-	background-color: #e3e2e2;
+	background-color: #3a3939;
 }	
 
 .fl-navbar-toggler.fl-active .fl-navbar-toggler-line::before {
@@ -206,8 +212,6 @@
 /*---fl-navbar-nav--*/
 
 .fl-navbar-nav {
-	border-top: 1px solid lightgrey;
-	border-bottom: 1px solid lightgrey;
 	font-size: 0 !important;
 }
 
@@ -222,25 +226,28 @@
 .fl-nav-link {
 	position: relative;
 	z-index: 7;
-	color: #313440;
-	font-weight: bold;
-	padding: 1rem;
-	font-size: 14px;
-	letter-spacing: 1px;
+	color: #3a3939;
+	font-weight: normal;
+	padding: 8px;
+	font-size: 16px;
+	letter-spacing: 0;
 	transition: color 0.3s linear, background-color 0.3s linear;
+	text-align: center;
 }
 
 @media (hover: hover) {
 
 	.fl-nav-link:hover {
-		color: #cfa144 !important;
+		color: white !important;
+		background-color: #2bc1f2;
 	}
 
 }
 
 .fl-nav-link:active,
 .fl-nav-link.fl-active {
-	color: #cfa144 !important;
+	color: white !important;
+	background-color: #2bc1f2;
 }
 
 .fl-nav-link-icon {
@@ -357,7 +364,7 @@
 @media only screen and (max-width: 599px) {
 
 	.fl-navbar-brand {
-		width: 50px;
+		width: 100px;
 	}
 
 }
@@ -372,11 +379,11 @@
 	display: block;
 	position: absolute;
 	top: 0;
-	width: 100%;
+	width: 90%;
 	left: -100%;
-	margin: 0;
-	padding: 0;
-	background-color: #cfa144;
+	margin: 0 auto 0;
+	padding: 0 5%;
+	background-color: #ecebeb;
 	transition: left 1s ease;
 	z-index: 2;
 }
@@ -424,14 +431,14 @@
 }
 
 .fl-sm-screen-menu-list {
-	background-color: white;
+	background-color: transparent;
 	padding: 0;
 	overflow: auto;
 	max-height: 100vh;
 }
 
 .fl-sm-screen-menu-list::-webkit-scrollbar {
-  width: 0;
+	width: 0;
 }
 
 .fl-sm-screen-menu-item:not(:first-child) {
@@ -441,39 +448,50 @@
 .fl-sm-screen-menu-link {
 	position: relative;
 	width: calc(100% - 2rem);
-	color: #313440;
+	color: #3a3939;
+	text-align: left;
+	background-color: #ecebeb;
 	padding: 1rem;
-	font-weight: bold;
-	text-indent: 1rem;
+	font-weight: normal;
+	text-indent: 0;
 	transition: color 0.3s ease, background-color 0.3s;
 }
 
+.fl-sm-screen-menu-item:not(:first-child, :last-child) .fl-sm-screen-menu-link {
+	border-bottom: 1px solid #afaeae;
+}
+
 @media (hover: hover) {
+
 	.fl-sm-screen-menu-link:hover {
-		color: #cfa144;
+		color: white;
+		background-color: #2bc1f2;
 	}
+
+	.fl-sm-screen-menu-link:hover .fl-sm-screen-menu-icon {
+		color: white;
+	}
+
 }	
 
 .fl-sm-screen-menu-link.fl-active,
 .fl-sm-screen-menu-link:active {
-	color: #cfa144;
+	color: white;
+	background-color: #2bc1f2;
 }
 
-.fl-sm-screen-menu-link-icon {
-	position: absolute;
-	padding: 0;
-	width: 50px;
-	top: 0;
-	right: 0;
-	height: 100%;
-	text-align: center;
-	transition: all 0.3s ease;
-	display: -ms-flexbox;
-	display: flex !important;
-	justify-content: center;
-	-ms-flex-pack: center;	
-	align-items: center;
-  	-ms-flex-align: center;	
+.fl-sm-screen-menu-link.fl-active {
+	border-bottom: 5px solid #2098c0;
+}
+
+.fl-sm-screen-menu-link:active .fl-sm-screen-menu-icon {
+	color: white;
+}
+
+.fl-sm-screen-menu-icon {
+	margin-right: 1rem;
+	color: #afaeae;
+	transition: color .3s;	
 }
 
 .fl-sm-screen-menu-link.fl-active .fl-sm-screen-menu-link-icon {
@@ -546,24 +564,27 @@
 }
 
 .fl-navbar-links-link {
-	color: #313440;
+	color: #00c0b5;
 	transition: color 0.3s ease;
 	line-height: 100%;
 }
 
 @media (hover: hover) {
 	.fl-navbar-links-link:hover {
-		color: #cfa144;
+		color: #21116c;
+		text-decoration: underline;
 	}
 }	
 
 .fl-navbar-links-link:active,
 .fl-navbar-links-link.fl-active {
-	color: #cfa144;
+	color: #21116c;
+	text-decoration: underline;
 }
 
 .fl-navbar-links-link-icon {
-		
+	color: #3a3939 !important;
+	margin-right: 0.5rem;	
 }
 
 /* the-end-of-fl-navbar-links */
@@ -583,9 +604,9 @@
 
 .fl-navbar-search-parent {
 	position: relative;
-	z-index: 1;
-	width: 75%;
-	margin: 0 auto 0;
+	z-index: 5;
+	width: 500px;
+	margin: 0;
 	opacity: 0;
 	max-height: 0;
 	visibility: hidden;
@@ -597,52 +618,56 @@
 	max-height: 1000px;
 	opacity: 1;
 	visibility: visible;
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+	/*margin-top: 2rem;*/
+	/*margin-bottom: 1rem;*/
+}
+
+.fl-navbar-search-title {
+	color: #00c0b5;
+	font-weight: bold;
+	margin: 0 0 10px;
 }
 
 .fl-navbar-search-input {
 	padding: 1rem;
 	padding-right: 7vw;
-	border-radius: 2rem;
-	border: 1px solid #262626;
+	border-radius: 5px;
+	border: 1px solid #afaeae;
 	outline: 0;
 	text-align: left;
-	width: calc(100% - 8.5vw);
-	color: #262626;
+	width: calc(100% - 7vw - 1rem);
+	color: #3a3939;
+	font-style: italic;
 	background-color: #f8f8f8;
 	transition: box-shadow 0.5s ease;
+	box-shadow: inset 0 2px 2px 0 rgb(0 0 0 / 10%), 0 0 0 transparent;
 }
 
 .fl-navbar-search-input:focus {
-	/*box-shadow: 2px 2px 10px white, -2px -2px 10px white !important;*/
+	box-shadow: 1px 1px 5px #2bc1f2, -1px -1px 5px #2bc1f2 !important;
 }
 
 .fl-navbar-search-input::-webkit-input-placeholder {
-  color: #c1c6ca;
+  color: #3a3939;
 }
 
 .fl-navbar-search-input::-moz-placeholder {
-  color: #c1c6ca;
-}
-
-.fl-navbar-search-input:-ms-input-placeholder {
-  color: #c1c6ca;
+  color: #3a3939;
 }
 
 .fl-navbar-search-input::-ms-input-placeholder {
-  color: #c1c6ca;
+  color: #3a3939;
 }
 
 .fl-navbar-search-input::placeholder {
-	color: #c1c6ca;
+	color: #3a3939;
 }
 
 .fl-navbar-search-submit,
 .fl-navbar-search-reset {
 	background: none;
 	border: 0;
-	color: #262626;
+	color: #21116c;
 	cursor: pointer;
 	outline: 0 !important;
 }
@@ -650,7 +675,7 @@
 .fl-navbar-search-buttons-con {
 	position: absolute;
 	top: 0;
-	right: 2vw;
+	right: 1rem;
 	height: 100%;
 	display: -ms-flexbox;
 	-ms-flex-wrap: nowrap;
@@ -665,13 +690,13 @@
 @media only screen and (hover: hover) {
 	.fl-navbar-search-submit:hover,
 	.fl-navbar-search-reset:hover {
-		color: #cfa144;
+		color: #21116c;
 	}
 }	
 
 .fl-navbar-search-submit:active,
 .fl-navbar-search-:active {
-	color: #cfa144;
+	color: #21116c;
 }
 
 .fl-navbar-search-submit:disabled,
@@ -684,11 +709,11 @@
 	position: absolute;
 	z-index: 1001;
 	background-color: rgba(34,34,34,0.9);
-	top: 120%;
+	top: 110%;
 	width: 100%;
 	padding-left: 0;
 	list-style-type: none;
-	max-height: 400px;
+	max-height: 200px;
 	overflow: auto;
 	visibility: hidden;
 	opacity: 0;
@@ -710,27 +735,30 @@
 }
 
 .fl-navbar-results-of-search::-webkit-scrollbar-thumb {
-  background: #cfa144; 
+  background: #3373a1; 
 }
 
 .fl-navbar-results-of-search::-webkit-scrollbar-thumb:hover {
-  background: #ca9528; 
+  background: #226da2; 
 }
 
 .fl-navbar-results-of-search-link {
-	background-color: transparent;
+	background-color: #3373a1;
 	text-decoration: none;
-	color: #ffffff;
+	color: white;
 	display: block;
 	overflow: auto;
-	padding: 2vw;
+	padding: 5px 2vw;
+	border: 5px solid white;
 	margin: 0 !important;
+	font-weight: bold;
 }
 
 @media only screen and (hover: hover) {
 
 	.fl-navbar-results-of-search-link:hover {
-		color: #cfa144;
+		border-color: rgba(252,254,255,0.7);
+   	 	background-color: rgba(51,115,161,0.7);
 	}
 }	
 
@@ -808,12 +836,18 @@
 
 	}
 
+	.fl-navbar-search-parent {
+		width: 90%;
+	}
+
 }	
 
 @media only screen and (max-width: 800px) {
 
-	.fl-navbar-search-parent {
-		width: 95%;
+	.fl-navbar-search-input {
+		padding: 0.5rem;
+		padding-right: 7vw;
+		width: calc(100% - 7vw - 0.5rem);
 	}
 
 	.fl-navbar-results-of-search-img-con {

@@ -6,9 +6,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	<meta name="theme-color" content="#cfa144" />
+	<meta name="theme-color" content="#21116c" />
 
-	<title>dunyadan-xeber.com</title>
+	<title>almanca-filmler.az</title>
 
 	<link href="images/icon.png" type="image/png" rel="icon">
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-header.min.css">
@@ -18,9 +18,13 @@
 	<link rel="stylesheet" type="text/css" href="css/flash/flash-simple-slider.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/body.css">
-	<link rel="stylesheet" type="text/css" href="css/posts.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="font_awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="slick-master/slick/slick.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="slick-master/slick/slick.min.js"></script>
 
 </head>
 
@@ -31,26 +35,45 @@
 	<div class="fl-loading-ani">
 		
 		<img src="images\navbar-brand.png" class="fl-loading-ani-img">
-
-		<div class="fl-loading-ani-divider"></div>
-
-		<div class="loading-ani-circles-par">
-
-			<div class="loading-ani-circle"></div>
-			<div class="loading-ani-circle"></div>
-
-		</div>	
+			
+		<div class="fl-loading-ani-line"></div>
 
 	</div>
 
 	<!-- the-end-of-loading-animation -->
 
 
-	<!-- flash-scroll-indicator -->
 
-	<div class="fl-scroll-indicator"></div>
+	<!-- header-top-container -->
 
-	<!-- the-end-of-flash-scroll-indicator -->
+	<div class="header-top-container fl-flex-center fl-hide-in-small-screen">
+
+		<a href="#" class="header-top-container-link">
+			<i class="fa fa-volume-up"></i> <span>Dinləmə</span>
+			<p>Alman dilini dinləmə <br> yolu ilə anla</p>
+		</a>
+
+		<a href="#" class="header-top-container-link">
+			<i class="fa fa-tv"></i> <span>Seriallar</span>
+			<p>İki altyazılı <br> seriallar</p>
+		</a>
+
+		<a href="#" class="header-top-container-link">
+			<i class="fa fa-book"></i> <span>Oyunlar</span>
+			<p>Öyrənmək üçün <br> oyunlar</p>
+		</a>
+
+		<a href="#" class="header-top-container-link">
+			<i class="fa fa-gamepad"></i> <span>İmntahanlar</span>
+			<p>Alman dili <br> səviyyənizi yoxlayın</p>
+		</a>
+
+		
+	</div>
+
+	<!-- the-end-of-header-top-container -->
+
+
 
 	<header class="fl-header">
 
@@ -58,506 +81,340 @@
 
 		<nav class="fl-navbar">
 
-			<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-navbar-brand">
-				<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
-			</a>
-			
-			<!-- the-end-of-navbar-container -->
-			<div class="navbar-container">
-				
-				<!-- fl-navbar-links -->
+			<!-- fl-navbar-toggler -->
 
-				<ul class="fl-navbar-links">
+			<div class="navbar-toggler-con fl-hide-in-big-screen">
 
-					<li class="fl-navbar-links-item">	
-
-						<a href="#" class="fl-navbar-links-link">
-							<img src="images/navbar-brand.png"> 
-							<span>TV-STREAM</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item navbar-radio-stream-item">	
-
-						<a href="#" class="fl-navbar-links-link">
-							<img src="images/navbar-brand.png"> 
-							<span>RADIO-STREAM</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
-
-						<a href="#" class="fl-navbar-links-link">
-							<i class="fl-navbar-links-link-icon fa fa-cloud"></i> 
-							<span>WEATHER</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
-
-						<a href="#" class="fl-navbar-links-link">
-							<i class="fl-navbar-links-link-icon fa fa-mobile"></i> 
-							<span>OUR APP</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
-
-						<a href="#" class="fl-navbar-links-link">
-							<i class="fl-navbar-links-link-icon fa fa-shopping-cart"></i> 
-							<span>DX SHOP</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
-
-						<a href="#" class="fl-navbar-links-link">
-							<i class="fl-navbar-links-link-icon fa fa-newspaper-o"></i> 
-							<span>NEWSPAPER</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
-
-						<a href="#" class="fl-navbar-links-link fl-link-disabled fl-navbar-search-toggler">
-							<i class="fl-navbar-links-link-icon fa fa-search"></i> 
-							<span>SEARCH</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item fl-hide-in-small-screen">	
-
-						<a href="#" class="fl-navbar-links-link fl-sign-up-btn fl-link-disabled fl-modal-con-shower" target="#userModalContainer">
-							<i class="fl-navbar-links-link-icon fa fa-user"></i> 
-							<span>SIGN UP</span>
-						</a>
-
-					</li>
-
-					<li class="fl-navbar-links-item">
-
-						<!-- fl-navbar-toggler -->
-
-						<button type="button" class="fl-navbar-toggler fl-hide-in-big-screen">
-							<p class="fl-navbar-toggler-line"></p>
-						</button>
-
-					</li>
-
-				</ul>
-
-				<!-- the-end-of-fl-navbar-links -->
-
-
-
-				<!-- fl-navbar-nav -->
-
-				<ul class="fl-navbar-nav fl-hide-in-small-screen">
-					
-					<li class="fl-nav-item">
-
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-nav-link fl-active">	
-							HOME <i class="fl-nav-link-icon fa fa-home"></i>
-						</a>
-
-					</li>
-
-					<li class="fl-nav-item">
-
-						<a href="#" class="fl-nav-link">ABOUT</a>
-
-					</li>
-
-					<li class="fl-nav-item fl-nav-item-dropdown">
-
-						<a href="" class="fl-nav-link fl-nav-dropdown-toggler">	
-							NEWS <i class="fl-nav-link-icon fa fa-angle-down"></i>
-						</a>
-
-						<div class="fl-dropdown-menu-con">
-
-							<ul class="fl-dropdown-menu">
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="https://ilhamgurbanly10.github.io/dunyadan-xeber/">
-										ALL
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										INLAND
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										ABROAD
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										MYSTERY
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										POLITICS
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										ENTERTAINMENT
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										SPORT
-									</a>
-
-								</li>
-
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										FOOTBALL
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										LIFESTYLE
-									</a>
-
-								</li>
-
-								<li class="fl-dropdown-menu-item">
-
-									<a class="fl-dropdown-menu-link fl-dropdown-main-item" href="#">
-										THE DAY AT DUNYADAN XEBER
-									</a>
-
-								</li>
-
-					        </ul>
-
-				        </div>
-
-					</li>
-
-					<li class="fl-nav-item">
-
-						<a href="#" class="fl-nav-link">
-							VIDEOS
-						</a>
-
-					</li>
-
-					<li class="fl-nav-item">
-
-						<a href="#" class="fl-nav-link">
-							COURSES
-						</a>
-
-					</li>
-
-					<li class="fl-nav-item">
-
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/gallery" class="fl-nav-link">
-							GALLERY
-						</a>
-
-					</li>
-
-					<li class="fl-nav-item">
-
-						<a href="#" class="fl-nav-link">
-							TV PROGRAM
-						</a>
-
-					</li>
-
-					<li class="fl-nav-item">
-
-						<a href="#" class="fl-nav-link">
-							RADIO PROGRAM
-						</a>
-
-					</li>
-
-				</ul>
-
-				<!-- the-end-of-fl-navbar-nav -->
-
-			</div>	
-			<!-- the-end-of-navbar-container -->
-
-
-
-			<!-- fl-sm-screen-menu -->	
-
-			<nav class="fl-sm-screen-menu fl-hide-in-big-screen fl-full-screen-sm-screen-menu">
-
-				<button type="button" class="fl-sm-screen-closer">
-					<i class="fa fa-times"></i>
+				<button type="button" class="fl-navbar-toggler fl-hide-in-big-screen">
+					<p class="fl-navbar-toggler-line"></p> <span>KATEQORİYALAR</span>
 				</button>
 
-				<ul class="fl-sm-screen-menu-list">
+				<!-- fl-sm-screen-menu -->	
 
-					<div class="sm-screen-menu-top-container fl-flex-row-wrap-space-between-and-center">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-navbar-brand">
-							<img src="images/icon.png" class="fl-navbar-brand-img">
-						</a>
+				<nav class="fl-sm-screen-menu fl-hide-in-big-screen">
 
-						<a href="#" class="fl-navbar-links-link fl-link-disabled sm-screen-menu-top-container-search-btn" >
-							<i class="fl-navbar-links-link-icon fa fa-search"></i>
-						</a>
+					<ul class="fl-sm-screen-menu-list">
+							
+						<li class="fl-sm-screen-menu-item">
 
-						<a href="#" class="fl-navbar-links-link fl-link-disabled fl-clicker sm-screen-menu-top-container-link sm-screen-menu-top-container-sign-up-btn" click-target=".fl-modal-con-shower">
-							<i class="fl-navbar-links-link-icon fa fa-user"></i> 
-							SIGN UP
-						</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link fl-active">	
+								<i class="fl-sm-screen-menu-icon fa fa-home"></i> Ana səhifə 
+							</a>
 
-					</div>
-						
-					<li class="fl-sm-screen-menu-item">
+						</li>
 
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/" class="fl-sm-screen-menu-link fl-active">	
-							HOME <i class="fl-nav-link-icon fa fa-home"></i>
-						</a>
+						<li class="fl-sm-screen-menu-item">
 
-					</li>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-film"></i> Janr üzrə filmlər 
+							</a>
 
-					<li class="fl-sm-screen-menu-item">
+						</li>
 
-						<a href="#" class="fl-sm-screen-menu-link">ABOUT</a>
+						<li class="fl-sm-screen-menu-item">
 
-					</li>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-newspaper-o"></i> İllərə görə filmlər 
+							</a>
 
-					<li class="fl-sm-screen-menu-item fl-sm-screen-menu-item-dropdown">
+						</li>
 
-						<a href="" class="fl-sm-screen-menu-link fl-sm-screen-menu-dropdown-toggler">	
-							NEWS 
-							<span class="sm-screen-menu-link-line"></span>
-							<i class="fl-sm-screen-menu-link-icon fa fa-angle-down"></i>
-						</a>
+						<li class="fl-sm-screen-menu-item">
 
-						<div class="fl-sm-screen-dropdown-menu-con">
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-tv"></i> Seriallar 
+							</a>
 
-							<ul class="fl-sm-screen-dropdown-menu">
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+						<li class="fl-sm-screen-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link fl-sm-screen-dropdown-menu-main-link" href="https://ilhamgurbanly10.github.io/dunyadan-xeber/">
-										ALL
-									</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-volume-up"></i> Almanca radio 
+							</a>
 
-								</li>
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+						<li class="fl-sm-screen-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										INLAND
-									</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-book"></i> Almanca kitablar 
+							</a>
 
-								</li>
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+						<li class="fl-sm-screen-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										ABROAD
-									</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-book"></i> Almanca səsli kitablar 
+							</a>
 
-								</li>
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+						<li class="fl-sm-screen-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										MYSTERY
-									</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-child"></i> Uşaqlar üçün alman dili 
+							</a>
 
-								</li>
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+						<li class="fl-sm-screen-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										POLITICS
-									</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-pencil"></i> Alman dili dərslikləri 
+							</a>
 
-								</li>
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+						<li class="fl-sm-screen-menu-item">
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										ENTERTAINMENT
-									</a>
+							<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-sm-screen-menu-link">	
+								<i class="fl-sm-screen-menu-icon fa fa-ticket"></i> Sifariş masası 
+							</a>
 
-								</li>
+						</li>
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+					</ul>
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										SPORT
-									</a>
+				</nav>
 
-								</li>
+				<!-- the-end-of-fl-sm-screen-menu -->
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+			</div>
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										FOOTBALL
-									</a>
+			<!-- the-end-of-fl-navbar-toggler -->
+			
+			<!-- fl-navbar-nav -->
 
-								</li>
+			<ul class="fl-navbar-nav fl-hide-in-small-screen fl-flex-center">
+				
+				<li class="fl-nav-item">
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link fl-active">	
+						<i class="fl-nav-link-icon fa fa-home"></i> <br>
+						Ana səhifə 
+					</a>
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										LIFESTYLE
-									</a>
+				</li>	
 
-								</li>
+				<li class="fl-nav-item">
 
-								<li class="fl-sm-screen-dropdown-menu-item">
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-film"></i> <br>	
+						Janr üzrə filmlər 
+					</a>
 
-									<a class="fl-sm-screen-dropdown-menu-link" href="#">
-										THE DAY AT DUNYADAN XEBER
-									</a>
+				</li>	
 
-								</li>
+				<li class="fl-nav-item">	
 
-					        </ul>
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-newspaper-o"></i> <br>	
+						İllərə görə filmlər 
+					</a>
 
-				        </div>
+				</li>	
 
-					</li>
+				<li class="fl-nav-item">
+					
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-tv"></i> <br>	
+						Seriallar
+					</a>
 
-					<li class="fl-sm-screen-menu-item">
+				</li>	
 
-						<a href="#" class="fl-sm-screen-menu-link">VIDEOS</a>
+				<li class="fl-nav-item">
 
-					</li>
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-volume-up"></i> <br>	
+						Almanca radio
+					</a>
 
-					<li class="fl-sm-screen-menu-item">
+				</li>	
 
-						<a href="#" class="fl-sm-screen-menu-link">COURSES</a>
+				<li class="fl-nav-item">
+					
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-book"></i> <br>	
+						Almanca kitablar
+					</a>
 
-					</li>
+				</li>	
 
-					<li class="fl-sm-screen-menu-item">
+				<li class="fl-nav-item">
 
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/gallery" class="fl-sm-screen-menu-link">
-							GALLERY
-						</a>
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-book"></i> <br>
+						Almanca səsli kitablar
+					</a>
 
-					</li>
+				</li>	
 
-					<li class="fl-sm-screen-menu-item">
+				<li class="fl-nav-item">
 
-						<a href="#" class="fl-sm-screen-menu-link">TV PROGRAM</a>
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-child"></i> <br>	
+						Uşaqlar üçün alman dili
+					</a>
 
-					</li>
+				</li>	
 
-					<li class="fl-sm-screen-menu-item">
+				<li class="fl-nav-item">
 
-						<a href="#" class="fl-sm-screen-menu-link">RADIO PROGRAM</a>
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-pencil"></i> <br>	
+						Alman dili dərslikləri
+					</a>
 
-					</li>
+				</li>	
 
-					<li class="fl-sm-screen-menu-item">
+				<li class="fl-nav-item">
+					
+					<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-nav-link">
+						<i class="fl-nav-link-icon fa fa-ticket"></i> <br>	
+						Sifariş masası
+					</a>
 
-						<a href="#" class="fl-sm-screen-menu-link">
-							<i class="fa fa-cloud sm-screen-menu-links-icon"></i>WEATHER
-						</a>	
+				</li>	
 
-					</li>
+			</ul>
 
-					<li class="fl-sm-screen-menu-item">
+			<!-- the-end-of-fl-navbar-nav -->
 
-						<a href="#" class="fl-sm-screen-menu-link">
-							<i class="fa fa-mobile sm-screen-menu-links-icon"></i>OUR APP
-						</a>	
+			<!-- fl-navbar-brand -->
 
-					</li>
+			<a href="https://ilhamgurbanly10.github.io/xeberimiz-var/" class="fl-navbar-brand">
+				<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
+			</a><!-- fl-navbar-brand -->
 
-					<li class="fl-sm-screen-menu-item">
-
-						<a href="#" class="fl-sm-screen-menu-link">
-							<i class="fa fa-shopping-cart sm-screen-menu-links-icon"></i>DX SHOP
-						</a>	
-
-					</li>
-
-					<li class="fl-sm-screen-menu-item">
-
-						<a href="#" class="fl-sm-screen-menu-link">
-							<i class="fa fa-newspaper-o sm-screen-menu-links-icon"></i>NEWSPAPER
-						</a>	
-
-					</li>
-
-				</ul>
-
-			</nav>
-
-			<!-- the-end-of-fl-sm-screen-menu -->
-
-
+			<!-- the-end-of-fl-navbar-brand -->
 
 			<!-- fl-navbar-search -->
 
-			<div class="fl-navbar-search-parent fl-navbar-search-parent-js">
+			<div class="fl-navbar-search-parent fl-navbar-search-parent-js fl-show">
 
-				<p class="fl-title-4 navbar-search-title color-grey fl-fw-bold fl-text-center">
-					<span class="color-gold">Dünyadan Xəbər</span> SEARCH
-				</p>
+				<h1 class="fl-navbar-search-title fl-hide-in-small-screen">Alman dilini onlayn öyrənin</h1>
 
-				<form class="fl-navbar-search" method="post" action="" target="" show-results="false">	
+				<form class="fl-navbar-search" method="post" action="" target="" show-results="true">	
 
-					<div class="navbar-search-con">
+				<div class="fl-relative">
 
-					<input type="text" name="search" id="search" class="fl-navbar-search-input" required="" placeholder="Search something...">
+					<input type="text" name="search" id="search" class="fl-navbar-search-input" required="" placeholder="Axtarış edin...">
 
-					<button type="submit" class="fl-navbar-search-submit" disabled="">
-						<i class="fa fa-search"></i>
-						<span>SEARCH</span>
-					</button>
+					<div class="fl-navbar-search-buttons-con">
+
+						<button type="reset" class="fl-navbar-search-reset" disabled="">
+								<i class="fa fa-times"></i>
+						</button>
+
+						<button type="submit" class="fl-navbar-search-submit" disabled="">
+								<i class="fa fa-search"></i>
+						</button>
 
 					</div>
 
+				</div>	
+
 				</form>
+
+				<ul class="fl-navbar-results-of-search">
+			
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 1) (2014) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 2) (2015) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 3) (2016) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 4) (2017) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 6) (2018) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 6) (2019) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 7) (2020) HD 720p
+						</a>
+
+					</li>
+
+					<li class="fl-navbar-results-of-search-item">
+
+						<a href="#" class="fl-navbar-results-of-search-link">
+							The 100 (sezon 8) (2021) HD 720p
+						</a>
+
+					</li>
+
+				</ul>
 				
 			</div>
 
 			<!-- the-end-of-fl-navbar-search -->
+
+
+			<!-- fl-navbar-links -->
+
+			<ul class="fl-navbar-links">
+
+				<li class="fl-navbar-links-item">	
+
+					<a href="#" class="fl-navbar-links-link fl-sign-in-btn fl-link-disabled fl-modal-con-shower" target="#userModalContainer">
+						<i class="fl-navbar-links-link-icon fa fa-sign-in"></i> <span>Giriş</span>
+					</a>
+
+				</li>
+
+				<li class="fl-navbar-links-item">	
+
+					<a href="#" class="fl-navbar-links-link fl-sign-up-btn">
+						<i class="fl-navbar-links-link-icon fa fa-user"></i> <span>Qeydiyyat</span>
+					</a>
+
+				</li>
+
+			</ul>
+
+			<!-- the-end-of-fl-navbar-links -->
 
 		</nav>
 
@@ -565,203 +422,6 @@
 
 	
 	</header>
-
-
-
-	<!-- flash-live-chat -->
-
-	<div class="fl-live-chat-con">
-
-		<button type="button" class="fl-live-chat-close-btn">
-			<i class="fa fa-close"></i>
-		</button>
-
-		<div class="fl-live-chat-header fl-drag-element-header">
-
-			<img src="images/navbar-brand.png" class="fl-live-chat-brand">
-
-		</div>
-
-		<div class="fl-live-chat-profile">
-
-			<div class="fl-live-chat-profile-img-con">
-				<img src="images/profile-images/user_02.jpg" class="fl-live-chat-profile-img">
-			</div>
-
-			<p class="fl-live-chat-profile-name">Aysu Gurbanova</p>
-
-			<button type="button" class="fl-live-chat-like-btn">
-				<i class="fa fa-thumbs-up"></i>
-			</button>
-
-			<button type="button" class="fl-live-chat-dislike-btn">
-				<i class="fa fa-thumbs-down"></i>
-			</button>
-
-		</div>
-
-		<div class="fl-live-chat-messages-con">
-			
-			<div class="fl-live-chat-messages-day">
-				<span class="fl-live-chat-messages-day-text">Today</span>
-			</div>
-
-			<div class="fl-live-chat-message fl-live-chat-user-message">
-
-				<div class="fl-live-chat-message-header">
-					<span class="fl-live-chat-message-name">Your Message</span>
-					<span class="fl-live-chat-message-date">14:25</span>
-				</div>
-
-				<div class="fl-live-chat-message-text">
-				 Text text text text text text text text text text.
-				</div>
-
-			</div>
-
-			<div class="fl-live-chat-message">
-
-				<div class="fl-live-chat-message-header">
-					<span class="fl-live-chat-message-name">Aysu Gurbanova</span>
-					<span class="fl-live-chat-message-date">14:30</span>
-				</div>
-
-				<div class="fl-live-chat-message-text">
-				 Text text text text text text text text text text text text text text text text text text text.
-				</div>
-
-			</div>
-
-			<div class="fl-live-chat-message fl-live-chat-user-message">
-
-				<div class="fl-live-chat-message-header">
-					<span class="fl-live-chat-message-name">Your Message</span>
-					<span class="fl-live-chat-message-date">14:40</span>
-				</div>
-
-				<div class="fl-live-chat-message-text">
-				 Text text text text text text.
-				</div>
-
-			</div>
-
-			<div class="fl-live-chat-message">
-
-				<div class="fl-live-chat-message-header">
-					<span class="fl-live-chat-message-name">Aysu Gurbanova</span>
-					<span class="fl-live-chat-message-date">14:42</span>
-				</div>	
-
-				<div class="fl-live-chat-message-text">
-				 Text text text.
-				</div>
-
-			</div>
-
-		</div>
-
-		<button type="button" class="fl-chat-form-toggler">
-			<i class="fa fa-envelope fa-close"></i>
-		</button>
-
-		<form class="fl-live-chat-form" method="post" action="chats.php">
-			
-			<textarea name="messagge" class="fl-live-chat-form-input" placeholder="Enter Message"></textarea>
-
-			<input type="submit" disabled="" name="submit-messagge" class="fl-live-chat-form-submit gold-btn-color" value="Send">
-
-			<input type="reset" name="" class="fl-live-chat-form-reset" value="Reset">
-
-		</form>
-
-	</div>
-
-	<button type="button" class="fl-live-chat-open-btn">
-		<span>Live Chat</span>
-		<i class="fa fa-comment"></i>
-	</button>
-
-	<!-- the-end-of-flash-live-chat -->
-
-
-
-	<!-- choose-languages -->
-
-	<div class="fl-dropdown-con choose-languages-dropdown-con">
-		
-		<!-- event attribute - click/hover -->
-
-		<button class="fl-dropdown-toggler choose-languages-toggler" event="click" target="#chooseLanguagesCon">
-			<i class="fa fa-gear"></i>
-		</button>
-
-		<div class="fl-dropdown-el" id="chooseLanguagesCon">
-			
-			<ul class="fl-dropdown-list">
-				
-				<div class="fl-dropdown-divider">
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">Azerbaijan</a>
-
-					</li>
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link fl-active">English</a>
-						
-					</li>
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">French</a>
-						
-					</li>
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">Italian</a>
-						
-					</li>
-
-				</div>
-
-				<div class="fl-dropdown-divider">	
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">German</a>
-						
-					</li>
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">Portuguese</a>
-						
-					</li>
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">Spanish</a>
-						
-					</li>
-
-					<li class="fl-dropdown-item">
-						
-						<a href="#" class="fl-dropdown-link">Turkish</a>
-						
-					</li>
-
-				</div>
-
-			</ul>
-
-		</div>
-
-	</div>
-
-	<!-- the-end-of-choose-languages -->
 
 
 
@@ -781,15 +441,15 @@
 					<i class="fa fa-times"></i>
 				</button>
 
-				<h4 class="fl-form-title fl-title-3">Sign Up</h4>						
+				<h1 class="fl-form-title">Giriş</h1>						
 
 				<div class="fl-form-con">
 
-					<label for="userName" class="fl-form-label">Username</label>
+					<label for="userName" class="fl-form-label">İstifadəçi adı</label>
 
 					<div class="fl-form-input-con">
 
-						<input type="text" name="userName" id="userName" placeholder="Username" class="fl-form-input">
+						<input type="text" name="userName" id="userName" placeholder="İstifadəçi adı" class="fl-form-input">
 						<i class="fa fa-user fl-form-input-icon"></i>
 
 					</div>
@@ -798,11 +458,11 @@
 
 				<div class="fl-form-con">
 
-					<label for="password" class="fl-form-label">Password</label>
+					<label for="password" class="fl-form-label">İstifadəçi kodu</label>
 
 					<div class="fl-form-input-con">
 
-						<input type="password" name="password" id="password" placeholder="Password" class="fl-form-input fl-password-input">
+						<input type="password" name="password" id="password" placeholder="İstifadəçi kodu" class="fl-form-input fl-password-input">
 						<i class="fa fa-eye fa-eye-slash fl-form-input-icon fl-form-password-input-icon"></i>
 
 					</div>	
@@ -811,13 +471,13 @@
 
 				<div class="fl-form-con">
 
-					<input type="submit" name="submit" class="fl-form-btn fl-form-submit gold-btn-color" value="Sign in">
+					<input type="submit" name="submit" class="fl-form-btn fl-form-submit orange-btn-color" value="DAXİL OL">
 
 				</div>
 
 				<div class="fl-form-con">
 
-					<label class="fl-checkbox-label">Remember me
+					<label class="fl-checkbox-label">Məni xatırla
 						<input type="checkbox" checked="checked">
 						<span class="fl-checkmark"></span>
 					</label>
@@ -826,7 +486,7 @@
 
 				<div class="fl-form-con">
 
-					<a href="#" class="user-modal-form-link">Already signed up?</a>
+					<a href="#" class="user-modal-form-link">Kodunuzu unutmusunuz?</a>
 
 				</div>
 
@@ -845,7 +505,7 @@
 	<!-- flash-simple-slider -->
 
 	<div class="fl-simple-slider" id="headSimpleSlider">
-		
+			
 		<!-- ---arrows--- -->	
 		<button type="button" class="fl-simple-slider-prev fl-simple-slider-arrow">
 			<i class="fa fa-chevron-left fl-simple-slider-icon"></i>
@@ -855,67 +515,331 @@
 			<i class="fa fa-chevron-right fl-simple-slider-icon"></i>
 		</button>
 
+		<ul class="fl-simple-slider-list">
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">QORXU</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">KOMEDİYA</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">DRAM</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">DEDEKTİV</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">MÜHARİBƏ</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">TARİXİ</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">TƏBİİ FƏLAKƏT</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">ROMANTİK</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">DÖYÜŞ</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">MACƏRA</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">ELMİ FANTASTİKA</button>
+			</li>
+
+			<li class="fl-simple-slider-item">
+				<button type="button" class="fl-simple-slider-btn">İDMAN</button>
+			</li>
+
+		</ul>
+
+		<!-- <i class="fa fa-play simple-slide-icon"></i> -->
+
 		<div class="fl-simple-slider-track-container">
 
 			<div class="fl-simple-slider-track">
 
 				<div class="fl-simple-slider-slide">
 					
-					<img src="images/posts/post_01.jpg" class="simple-slide-img">
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
 
-					<div class="simple-slider-con">
+						<img src="images/posts/side_post_01.jpg" class="simple-slide-img">
 
-						<p class="simple-slider-title fl-title-3">NEWS TITLE, NEWS TITLE</p>
+						<div class="simple-slider-con">
 
-						<p class="simple-slider-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
 
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link gold-btn-color">VISIT THE PAGE</a>
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
 
-					</div>
+						</div>
 
-				</div>
-
-				<div class="fl-simple-slider-slide">
-					
-					<img src="images/posts/side_post_04.jpg" class="simple-slide-img">
-
-					<div class="simple-slider-con">
-
-						<p class="simple-slider-title fl-title-3">NEWS TITLE, NEWS TITLE</p>
-
-						<p class="simple-slider-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
-
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link gold-btn-color">VISIT THE PAGE</a>
-
-					</div>
+					</a>
 
 				</div>
 
 				<div class="fl-simple-slider-slide">
 					
-					<img src="images/posts/side_post_06.png" class="simple-slide-img">
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
 
-					<div class="simple-slider-con">
+						<img src="images/posts/side_post_02.jpg" class="simple-slide-img">
 
-						<p class="simple-slider-title fl-title-3">NEWS TITLE, NEWS TITLE</p>
+						<div class="simple-slider-con">
 
-						<p class="simple-slider-text">
-							Text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news, text about news.
-						</p>
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
 
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link gold-btn-color">VISIT THE PAGE</a>
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
 
-					</div>
+						</div>
+
+					</a>
 
 				</div>
 
-			</div>
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
 
-		</div>	
+						<img src="images/posts/side_post_03.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_04.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_05.png" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_07.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_08.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_09.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_10.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_11.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_12.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+				<div class="fl-simple-slider-slide">
+					
+					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
+
+						<img src="images/posts/side_post_13.jpg" class="simple-slide-img">
+
+						<div class="simple-slider-con">
+
+								<center>
+									<p class="simple-slider-title">FİLMİN BAŞLIĞI</p>
+								</center>	
+
+								<p class="simple-slider-text">
+									Film haqqında mətn, film haqqında mətn, film haqqında mətn.
+								</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+			</div>	
+
+		</div>						
 
 	</div>
 
@@ -923,1261 +847,1495 @@
 
 
 
-	<!-- actual-news -->
+	<!-- who-we-are -->
 
-	<div class="actual-news">
-
-		<ul class="actual-news-list">
-			
-			<li class="actual-news-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
-					
-					<img src="images/posts/post_07.jpg" class="actual-news-img">
-
-					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
-
-					<p class="actual-news-text">
-						Text about news, text about news, <span>text about news.</span>
-					</p>
-
-				</a>
-				
-			</li>
-
-			<li class="actual-news-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
-					
-					<img src="images/posts/side_post_04.jpg" class="actual-news-img">
-
-					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
-
-					<p class="actual-news-text">
-						Text about news, text about news, <span>text about news.</span>
-					</p>
-
-				</a>
-				
-			</li>
-
-			<li class="actual-news-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
-					
-					<img src="images/posts/post_10.jpg" class="actual-news-img">
-
-					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
-
-					<p class="actual-news-text">
-						Text about news, text about news, <span>text about news.</span>
-					</p>
-
-				</a>
-				
-			</li>
-
-			<li class="actual-news-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="actual-news-link">
-					
-					<img src="images/posts/post_04.jpg" class="actual-news-img">
-
-					<h4 class="actual-news-title">NEWS TITLE, NEWS TITLE</h4>
-
-					<p class="actual-news-text">
-						Text about news, text about news, <span>text about news.</span>
-					</p>
-
-				</a>
-				
-			</li>
-
-		</ul>
+	<ul class="who-we-are fl-list fl-list-2 fl-small-screen-list-1">
 		
-
-	</div>
-
-	<!-- the-end-of-actual-news -->
-
-
-
-	<!-- fl-posts-container -->
-
-	<div class="fl-posts-container">
-
-		<!-- fl-main-posts -->
-
-		<div class="fl-main-posts-container">
+		<li class="fl-list-item">
 			
-			<!-- fl-main-posts-list -->
+			<h1 class="who-we-are-title fl-title-1">BİZ KİMİK?</h1>
 
-			<ul class="fl-main-posts-list fl-two-main-posts-in-row fl-responsive-posts">
+			<p class="who-we-are-text">
+				Bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn, bizim haqqımızda mətn.
+			</p>
 
-				<li class="fl-main-posts-item">
+			<a href="#" class="who-we-are-link orange-btn">DAHA ƏTRAFLI</a>
 
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
+		</li>
 
+		<li class="fl-list-item">
 
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_01.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_02.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_03.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_04.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_05.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_06.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_07.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_08.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_09.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_10.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_01.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_02.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_03.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_04.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_05.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_06.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_07.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_08.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_09.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>
-
-				<li class="fl-main-posts-item">
-
-					<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-main-posts-link">
-
-
-						<div class="fl-main-posts-image-container">
-
-							<img src="images/navbar-brand.png" class="main-posts-brand">
-							<img src="images/posts/post_10.jpg" class="fl-main-posts-image">
-
-							<p class="fl-main-posts-name">NEWS TITLE, NEWS TITLE</p>
-
-							<p class="fl-main-posts-text">
-								Text about news, text about news, <span> text about news. </span>
-							</p>
-
-						</div>
-						
-					</a>
-
-				</li>				
-				
-			</ul>
-
-			<!-- the-end-of-fl-main-posts-list -->
-
-
-
-			<!-- fl-pagination -->
-
-			<div class="fl-pagination">
-					
-				<ul class="fl-pagination-list">
-					
-					<li class="fl-pagination-item">
-
-						<a href="#" class="fl-pagination-link fl-pagination-prev fl-pagination-arrow fl-pagination-disabled-link">
-
-							<i class="fa fa-chevron-left"></i>
-							Previous
-
-						</a>
-
-					</li>
-
-					<li class="fl-pagination-flex-divider"></li>
-
-					<div class="pagination-divider">
-
-						<li class="fl-pagination-item fl-first-child-in-smaller-screen">
-
-							<a href="#" class="fl-pagination-link fl-active">1</a>
-
-						</li>
-
-						<li class="fl-pagination-item">
-
-							<a href="#" class="fl-pagination-link">2</a>
-
-						</li>
-
-						<li class="fl-pagination-item">
-
-							<a href="#" class="fl-pagination-link">3</a>
-
-						</li>
-
-						<li class="fl-pagination-item">
-
-							<a href="#" class="fl-pagination-link">4</a>
-
-						</li>
-
-						<li class="fl-pagination-item">
-
-							<a href="#" class="fl-pagination-link">5</a>
-
-						</li>
-
-						<li class="fl-pagination-item fl-pagination-item-divider">......</li>
-
-						<li class="fl-pagination-item">
-
-							<a href="#" class="fl-pagination-link">97</a>
-
-						</li>
-
-						<li class="fl-pagination-item">
-
-							<a href="#" class="fl-pagination-link">98</a>
-
-						</li>
-
-						<li class="fl-pagination-item fl-last-child-in-smaller-screen">
-
-							<a href="#" class="fl-pagination-link">99</a>
-
-						</li>
-
-					</div>	
-
-					<li class="fl-pagination-flex-divider"></li>
-
-					<li class="fl-pagination-item">
-
-						<a href="#" class="fl-pagination-link fl-pagination-next fl-pagination-arrow">
-
-							<i class="fa fa-chevron-right"></i>
-							Next
-
-						</a>
-
-					</li>
-
-				</ul>
-
+			<div class="who-we-are-img-con">
+				<img src="images/who-we-are.jpg" class="who-we-are-img">
 			</div>
 
-			<!-- end-of-the-fl-pagination -->
+		</li>
 
-		</div>
+	</ul>
 
-		<!-- the-end-of-fl-main-posts -->
+	<!-- the-end-of-who-we-are -->
 
-	</div>
 
-	<!-- the-end-of-fl-posts-container -->
 
+	<!-- page-first-slider -->
 
-	<div class="under-posts-con">
+	<div class="page-first-slider-con" id="OnlineFilmsInGerman">
 
-		<!-- flash-simple-slider -->
+		<a href="#" class="page-first-slider-title-link">
+			<h2 class="page-first-slider-title">ALMAN DİLİNDƏ ONLİNE FİLMLƏR</h2>
+		</a>	
 
-		<div class="fl-simple-slider" id="bottomSimpleSlider">
-				
-			<!-- ---arrows--- -->	
-			<button type="button" class="fl-simple-slider-prev fl-simple-slider-arrow">
-				<i class="fa fa-chevron-left fl-simple-slider-icon"></i>
-			</button>
-
-			<button type="button" class="fl-simple-slider-next fl-simple-slider-arrow">
-				<i class="fa fa-chevron-right fl-simple-slider-icon"></i>
-			</button>
-
-			<ul class="fl-simple-slider-list">
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">INLAND</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">ABROAD</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">MYSTERY</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">POLITICS</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">ENTERTAINMENT</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">SPORT</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">FOOTBALL</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">LIFESTYLE</button>
-				</li>
-
-				<li class="fl-simple-slider-item">
-					<button type="button" class="fl-simple-slider-btn">WAR</button>
-				</li>
-
-			</ul>
-
-			<!-- <i class="fa fa-play simple-slide-icon"></i> -->
-
-			<div class="fl-simple-slider-track-container">
-
-				<div class="fl-simple-slider-track">
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/post_01.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/post_02.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/post_04.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/side_post_05.png" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/side_post_03.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/sport/img_04.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/sport/img_02.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/post_10.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-					<div class="fl-simple-slider-slide">
-						
-						<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="simple-slider-link">
-
-							<img src="images/posts/post_03.jpg" class="simple-slide-img">
-
-							<div class="simple-slider-con">
-
-									<center>
-										<p class="simple-slider-title">NEWS TITLE, NEWS TITLE</p>
-									</center>	
-
-									<p class="simple-slider-text">
-										Text about news, text about news.
-									</p>
-
-							</div>
-
-						</a>
-
-					</div>
-
-				</div>	
-
-			</div>						
-
-		</div>
-
-		<!-- the-end-of-flash-simple-slider -->
-
-		<div class="side-post">
-
-			<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="side-post-link">
+		<div class="page-first-slider fl-slick-arrows" id="OnlineFilmsInGermanSlider">
 			
-				<img src="images/posts/side_post_04.jpg" class="side-post-img">
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_01.jpg" class="page-first-slider-img">
 
-				<p class="side-post-title fl-title-5">NEWS TITLE, NEWS TITLE</p>
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
 
-				<img src="images/navbar-brand.png" class="side-post-brand">
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
 
-				<p class="side-post-text">Text about news, text about news.</p>
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_03.jpeg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_04.png" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_05.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_06.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_07.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_08.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
 
 			</a>
 
 		</div>
 
-	</div>	
-
-
-
-	<!-- sport -->
-
-	<div class="sport-con">
-
-		<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber" class="sport-title-link fl-title-4">
-			SPORT <i class="fa fa-chevron-right"></i>
-		</a>
-
-		<p class="sport-title-link-underline"></p>
-
-		<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-top-con">
-
-			<img src="images/sport/bg_img.jpg" class="sport-top-img">
-
-			<div class="sport-top-text-con">
-
-				<p class="sport-top-title fl-title-5">News title, news title, news title.</p>
-
-				<p class="sport-top-text fl-title-2">
-					Text about news, text about news, text about news.
-				</p>
-
-			</div>
-
-		</a>
-
-		<ul class="sport-list fl-list fl-list-3 fl-small-screen-list-2 fl-smaller-screen-list-1">
-			
-			<li class="sport-item fl-list-item">
-					
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
-					
-					<div class="sport-img-con">
-						<img src="images/icon.png" class="sport-icon">
-						<img src="images/sport/img_01.jpg" class="sport-img">
-					</div>
-
-					<p class="sport-first-title">News title, news title.</p>
-
-					<p class="sport-second-title">News title, news title, news title.</p>
-
-					<p class="sport-text">
-						Text about news, text about news, text about news, text about news, text about news, text about news.
-					</p>
-
-				</a>
-
-			</li>
-
-			<li class="sport-item fl-list-item">
-					
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
-					
-					<div class="sport-img-con">
-						<img src="images/icon.png" class="sport-icon">
-						<img src="images/sport/img_02.jpg" class="sport-img">
-					</div>
-
-					<p class="sport-first-title">News title, news title.</p>
-
-					<p class="sport-second-title">News title, news title, news title.</p>
-
-					<p class="sport-text">
-						Text about news, text about news, text about news, text about news, text about news, text about news.
-					</p>
-
-				</a>
-
-			</li>
-
-			<li class="sport-item fl-list-item">
-					
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
-					
-					<div class="sport-img-con">
-						<img src="images/icon.png" class="sport-icon">
-						<img src="images/sport/img_03.jpg" class="sport-img">
-					</div>
-
-					<p class="sport-first-title">News title, news title.</p>
-
-					<p class="sport-second-title">News title, news title, news title.</p>
-
-					<p class="sport-text">
-						Text about news, text about news, text about news, text about news, text about news, text about news.
-					</p>
-
-				</a>
-
-			</li>
-
-			<li class="sport-item fl-list-item">
-					
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
-					
-					<div class="sport-img-con">
-						<img src="images/icon.png" class="sport-icon">
-						<img src="images/sport/img_04.jpg" class="sport-img">
-					</div>
-
-					<p class="sport-first-title">News title, news title.</p>
-
-					<p class="sport-second-title">News title, news title, news title.</p>
-
-					<p class="sport-text">
-						Text about news, text about news, text about news, text about news, text about news, text about news.
-					</p>
-
-				</a>
-
-			</li>
-
-			<li class="sport-item fl-list-item">
-					
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
-					
-					<div class="sport-img-con">
-						<img src="images/icon.png" class="sport-icon">
-						<img src="images/sport/img_05.jpeg" class="sport-img">
-					</div>
-
-					<p class="sport-first-title">News title, news title.</p>
-
-					<p class="sport-second-title">News title, news title, news title.</p>
-
-					<p class="sport-text">
-						Text about news, text about news, text about news, text about news, text about news, text about news.
-					</p>
-
-				</a>
-
-			</li>
-
-			<li class="sport-item fl-list-item">
-					
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="sport-link">
-					
-					<div class="sport-img-con">
-						<img src="images/icon.png" class="sport-icon">
-						<img src="images/sport/img_06.jpg" class="sport-img">
-					</div>
-
-					<p class="sport-first-title">News title, news title.</p>
-
-					<p class="sport-second-title">News title, news title, news title.</p>
-
-					<p class="sport-text">
-						Text about news, text about news, text about news, text about news, text about news, text about news.
-					</p>
-
-				</a>
-
-			</li>
-
-		</ul>
-		
 	</div>
 
-	<!-- the-end-of-sport -->
+	<!-- the-end-of-page-first-slider -->
+
+
+
+	<!-- page-first-slider -->
+
+	<div class="page-first-slider-con" id="mostWatched">
+
+		<a href="#" class="page-first-slider-title-link">
+			<h2 class="page-first-slider-title">ƏN ÇOX İZLƏNİLƏNLƏR</h2>
+		</a>	
+
+		<div class="page-first-slider fl-slick-arrows" id="mostWatchedSlider">
+			
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_01.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_03.jpeg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_04.png" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_05.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_06.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_07.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_08.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-first-slider -->
+
+
+
+	<!-- page-second-slider -->
+
+	<div class="page-second-slider-con" id="">
+
+
+		<h2 class="page-second-slider-top-title">JANRLARA GÖRƏ FİLMLƏR</h2>
+			
+
+		<div class="page-second-slider fl-slick-arrows">
+			
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_01.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_02.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_03.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_04.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_08.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_09.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_10.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_11.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_12.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_13.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-second-slider -->
+
+
+
+	<!-- page-second-slider -->
+
+	<div class="page-second-slider-con" id="filmography">
+
+
+		<h2 class="page-second-slider-top-title">FİLMOQRAFİYA</h2>
+			
+
+		<div class="page-second-slider fl-slick-arrows">
+			
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_01.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_02.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_03.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_04.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_08.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_09.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_10.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_11.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_12.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_13.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-second-slider -->
+
+
+
+
+	<!-- page-second-slider -->
+
+	<div class="page-second-slider-con" id="">
+
+		<h2 class="page-second-slider-top-title">BAXMAQ ÜÇÜN TÖVSİYƏ EDİLƏN FİLMLƏR</h2>
+			
+		<div class="page-second-slider fl-slick-arrows">
+			
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_01.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_02.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_03.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_04.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_08.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_09.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_10.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_11.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_12.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+			<a href="#" class="page-second-slider-link">
+				
+				<img src="images/posts/side_post_13.jpg" class="page-second-slider-img">
+
+				<p class="page-second-slider-title">Film Başlığı</p>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-second-slider -->
+
+
+
+
+	<!-- page-first-slider -->
+
+	<div class="page-first-slider-con" id="cartoonsInGerman">
+
+		<a href="#" class="page-first-slider-title-link">
+			<h2 class="page-first-slider-title">ALMAN DİLİNDƏ CİZGİ FİLMLƏRİ</h2>
+		</a>	
+
+		<div class="page-first-slider fl-slick-arrows" id="cartoonsInGermanSlider">
+			
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+			
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-first-slider -->
+
+
+
+	<!-- page-first-slider -->
+
+	<div class="page-first-slider-con" id="audiobooksInGerman">
+
+		<a href="#" class="page-first-slider-title-link">
+			<h2 class="page-first-slider-title">ALMAN DİLİNDƏ SƏSLİ KİTABLAR</h2>
+		</a>	
+
+		<div class="page-first-slider fl-slick-arrows" id="audiobooksInGermanSlider">
+			
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_01.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_03.jpeg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_04.png" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_05.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_06.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_07.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/post_08.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-first-slider -->
+
+
+
+	<!-- page-first-slider -->
+
+	<div class="page-first-slider-con" id="germanForKids">
+
+		<a href="#" class="page-first-slider-title-link">
+			<h2 class="page-first-slider-title">UŞAQLAR ÜÇÜN ALMAN DİLİ</h2>
+		</a>	
+
+		<div class="page-first-slider fl-slick-arrows" id="germanForKidsSlider">
+			
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+			
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_01.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_02.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_03.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+			<a href="#" class="page-first-slider-link">
+				
+				<img src="images/posts/cartoon_post_04.jpg" class="page-first-slider-img">
+
+				<div class="page-first-slider-ani">
+					
+					<div class="page-first-slider-ani-top-text">
+						<i class="fa fa-eye"></i>
+						<p class="">Onlayn izlə</p>
+					</div>
+
+					<div class="page-first-slider-ani-bottom-text">
+						<p class="page-first-slider-ani-title">Filmin Başlığı</p>
+						<p>2022, ölkə, janr / 2022</p>
+					</div>
+
+				</div>
+
+			</a>
+
+		</div>
+
+	</div>
+
+	<!-- the-end-of-page-first-slider -->
+
+
+
+	<!-- infos-list -->
+
+	<ul class="fl-list fl-list-4 fl-small-screen-list-2 fl-smaller-screen-list-1 infos-list">
+		
+		<li class="fl-list-item infos-item">
+
+			<i class="fa fa-book infos-icon color-orange"></i>
+
+			<h3 class="infos-title">Populyar kurslar</h3>
+
+			<p class="infos-text">
+				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+			</p>
+
+			<a href="#" class="infos-link">Daha ətraflı</a>
+			
+		</li>
+
+		<li class="fl-list-item infos-item">
+
+			<i class="fa fa-newspaper-o infos-icon color-red"></i>
+
+			<h3 class="infos-title">Faydalı məqalələr</h3>
+
+			<p class="infos-text">
+				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+			</p>
+
+			<a href="#" class="infos-link">Daha ətraflı</a>
+			
+		</li>
+
+		<li class="fl-list-item infos-item">
+
+			<i class="fa fa-pencil infos-icon color-blue"></i>
+
+			<h3 class="infos-title">Alman dili dərsliklər</h3>
+
+			<p class="infos-text">
+				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+			</p>
+
+			<a href="#" class="infos-link">Daha ətraflı</a>
+			
+		</li>
+
+		<li class="fl-list-item infos-item">
+
+			<i class="fa fa-comment infos-icon color-green"></i>
+
+			<h3 class="infos-title">Forum</h3>
+
+			<p class="infos-text">
+				Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+			</p>
+
+			<a href="#" class="infos-link">Daha ətraflı</a>
+			
+		</li>
+
+	</ul>
+
+	<!-- the-end-of-infos-list -->
+
+
+
+	<!-- guide -->
+
+	<div class="guide">
+		
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+		<p class="guide-title">Başlıq ismi, başlıq ismi.</p>
+		<p class="guide-text">
+			Hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn, hissə haqqında mətn.
+		</p>
+
+	</div>
+
+	<!-- the-end-of-guide -->
 
 
 
 	<footer class="fl-footer">
 
-		<div class="footer-con">
+		<a href="https://ilhamgurbanly10.github.io/almanca-filmler/" class="fl-navbar-brand">
+			<img src="images/navbar-brand.png" class="fl-navbar-brand-img">
+		</a>
+   
+		<div id="footerContainer" class="">
 
-			<p class="fl-title-5 footer-title">DUNYADAN <span>XEBER</span></p>
+			<ul class="fl-footer-list fl-footer-inline-list" id="aboutUs">
 
-			<p class="footer-text">
-				Text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us.
-			</p>
+				<li class="fl-footer-item">
+					
+					<a href="#" class="fl-footer-link">
+						Haqqımızda 
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						Almanca Filmler akademiyası 
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						Xidmətlər
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						FAQ 
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">	
+
+					<a href="#" class="fl-footer-link">
+						Bizimlə əlaqə
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">	
+
+					<a href="#" class="fl-footer-link">
+						Kurslarımız
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">	
+
+					<a href="#" class="fl-footer-link">
+						Tədbirlər
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">	
+
+					<a href="#" class="fl-footer-link">
+						Satışda olan filmlərimiz
+					</a>
+
+				</li>
+
+			</ul>
+			
+			<ul class="fl-footer-list fl-footer-inline-list fl-mt-1" id="footerAppList">
+				
+				<li class="fl-footer-item">
+					
+					<a href="#" class="fl-footer-link">
+						<i class="fa fa-facebook fl-footer-icon"></i> 
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						<i class="fa fa-instagram fl-footer-icon"></i> 
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						<i class="fa fa-twitter fl-footer-icon"></i> 
+					</a>
+
+				</li>	
+
+				<li class="fl-footer-item">
+
+					<a href="#" class="fl-footer-link">
+						<i class="fa fa-youtube fl-footer-icon"></i> 
+					</a>
+
+				</li>
+
+				<li class="fl-footer-item">	
+
+					<a href="#" class="fl-footer-link">
+						<i class="fa fa-whatsapp fl-footer-icon"></i> 
+					</a>
+
+				</li>			
+
+			</ul>
+
+			<div class="fl-flex-space-between-and-center fl-flex-wrap fl-mt-3" id="footerInnerContainer">
+
+				<ul class="fl-footer-list">
+
+					<li class="fl-footer-item">
+						
+						<a href="#" class="fl-footer-link">
+							Saytın inkişafına qeyri-maliyyə baxımından necə kömək edə bilərsiniz? 
+						</a>
+
+					</li>	
+
+					<li class="fl-footer-item">
+
+						<a href="#" class="fl-footer-link">
+							Saytın inkişafına maddi dəstək verin
+						</a>
+
+					</li>	
+
+					<li class="fl-footer-item">
+
+						<a href="#" class="fl-footer-link">
+							Texniki xətaların müzakirəsi 
+						</a>
+
+					</li>		
+
+				</ul>
+
+				<p class="footer-email">e-mail: mail@almanca-filmler.az</p>
+
+			</div>	
 
 		</div>
 
-		<ul class="fl-footer-list" id="companyInfo">
-
-			<li class="fl-footer-title">Company Info</li>	
-
-			<li class="fl-footer-item">
-				Text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us, text about us.
-			</li>	
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					<i class="fa fa-facebook fl-footer-icon"></i> 
-				</a>
-
-				<a href="#" class="fl-footer-link">
-					<i class="fa fa-twitter fl-footer-icon"></i> 
-				</a>
-
-				<a href="#" class="fl-footer-link">
-					<i class="fa fa-instagram fl-footer-icon"></i> 
-				</a>
-
-				<a href="#" class="fl-footer-link">
-					<i class="fa fa-youtube fl-footer-icon"></i> 
-				</a>
-
-			</li>		
-
-		</ul>
-
-		<ul class="fl-footer-list" id="latestNews">
-
-			<li class="fl-footer-title">Latest News</li>		
-
-			<li class="fl-footer-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-footer-link fl-overflow-auto footer-link-has-image">
-					
-					<div class="footer-img-con">
-						<img src="images/posts/side_post_01.jpg" class="footer-img">
-					</div> 
-
-					<p class="footer-name">News title</p>
-
-					<p class="footer-date">Mar 28, 2022</p>
-
-				</a>
-
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-footer-link fl-overflow-auto footer-link-has-image">
-					
-					<div class="footer-img-con">
-						<img src="images/posts/side_post_02.jpg" class="footer-img">
-					</div> 
-
-					<p class="footer-name">News title</p>
-
-					<p class="footer-date">Mar 29, 2022</p>
-
-				</a>
-
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/post" class="fl-footer-link fl-overflow-auto footer-link-has-image">
-					
-					<div class="footer-img-con">
-						<img src="images/posts/side_post_03.jpg" class="footer-img">
-					</div> 
-
-					<p class="footer-name">News title</p>
-
-					<p class="footer-date">Mar 30, 2022</p>
-
-				</a>
-
-			</li>		
-
-		</ul>
-
-		<ul class="fl-footer-list" id="pages">
-
-			<li class="fl-footer-title">Pages</li>		
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					About Us
-				</a>
-
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					Services
-				</a>
-
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					Experts
-				</a>
-
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="https://ilhamgurbanly10.github.io/dunyadan-xeber/gallery" class="fl-footer-link">
-					Gallery
-				</a>
-
-			</li>
-
-			<li class="fl-footer-item">
-
-				<a href="#" class="fl-footer-link">
-					Blog
-				</a>
-
-			</li>		
-
-		</ul>
-   
-
-		<ul class="fl-footer-list" id="quickContact">
-
-			<li class="fl-footer-title">Quick Contact</li>		
-
-			<li class="fl-footer-item">
-
-				<form method="POST" target="contact.php" class="fl-footer-form">
-					
-					<input type="email" name="email" id="email" class="fl-footer-input" placeholder="Enter Email">
-
-					<textarea name="text" id="text" class="fl-footer-input fl-footer-message" placeholder="Enter Message" rows="3"></textarea>
-
-					<input type="submit" name="submit" value="Send Message" class="fl-footer-submit">
-
-				</form>
-
-			</li>		
-
-		</ul>
-
 	</footer>
 
-	<div class="fl-footer-bottom-con">
-		Copyright ©2022. All Rights Reserved
-	</div>
+  
 
 	<!-- fl-back-to-top-button -->
 

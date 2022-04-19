@@ -45,6 +45,10 @@ ul {
 	margin: 0;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+	white-space: normal;
+}
+
 /* the-end-of-default-values-of-html-elements */
 
 
@@ -62,6 +66,48 @@ ul {
 	-ms-flex-line-pack: center;
 	align-items: center;
   	-ms-flex-align: center;	
+}
+
+.fl-flex-row {
+	flex-direction: row;
+	-ms-flex-direction: row;
+}
+
+.fl-flex-column {
+	flex-direction: column;
+	-ms-flex-direction: column;
+}
+
+.fl-flex-wrap {
+	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
+
+.fl-flex-nowrap {
+	flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+}
+
+.fl-flex-space-between-and-center {
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	-ms-flex-pack: justify;	
+	align-content: center;
+	-ms-flex-line-pack: center;
+	align-items: center;
+  	-ms-flex-align: center;
+}
+
+.fl-flex-center {
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	-ms-flex-pack: center;	
+	align-content: center;
+	-ms-flex-line-pack: center;
+	align-items: center;
+  	-ms-flex-align: center;
 }
 
 .fl-flex-divider-in-small-screen {
@@ -1076,12 +1122,15 @@ ul {
 .fl-form-input::-webkit-input-placeholder {
   	color: #848383;
 }
+
 .fl-form-input::-moz-placeholder {
   	color: #848383;
 }
+
 .fl-form-input::-ms-input-placeholder {
   	color: #848383;
 }
+
 .fl-form-input::placeholder {
   	color: #848383;
 }
@@ -1425,9 +1474,9 @@ ul {
 @media only screen and (max-width: 1024px) {
 
 	.fl-small-screen-list-1 .fl-list-item {
-		width: 100%;
-		margin-top: 0;
-		margin-right: 0;
+		width: 100% !important;
+		margin-top: 0 !important;
+		margin-right: 0 !important;
 	}
 
 	.fl-small-screen-list-1 .fl-list-item:not(:first-child) {
