@@ -41,6 +41,15 @@
 	right: 0;
 }
 
+.fl-simple-slider-length {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	color: white;
+	font-weight: bold;
+	z-index: 2;
+}
+
 .fl-simple-slider-track-container {
 	width: 100%;
 	height: 100%;

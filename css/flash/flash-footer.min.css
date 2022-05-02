@@ -1,28 +1,56 @@
 /* fl-footer */
 
 .fl-footer {
-	background-color: #416418;
-	padding: 3rem 0;
-	margin-top: 8vw;
+	background: none;
+	padding: 0;
+	background-color: red;
+	margin-top: 0;
+	width: 100%;
+	/*display: -ms-flexbox;
+	display: flex;
+	flex-flow: row wrap;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: row;
+	justify-content: space-between;
+	-ms-flex-pack: justify;	
+	align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-items: flex-start;
+  	-ms-flex-align: start;*/	
+}
+
+.fl-footer-con {
+	background-color: #26292c;
+	padding: 75px 12% 75px;
+	width: 100%;
+	margin-top: 0;
+	box-sizing: border-box;
 	display: -ms-flexbox;
 	display: flex;
 	flex-flow: row wrap;
 	-ms-flex-wrap: wrap;
 	-ms-flex-direction: row;
-	justify-content: center;
-	-ms-flex-pack: center;	
+	justify-content: flex-start;
+	-ms-flex-pack: start;	
 	align-content: flex-start;
 	-ms-flex-line-pack: start;
 	align-items: flex-start;
   	-ms-flex-align: start;	
   	position: relative;
+  	border-bottom: 0.5px solid rgba(255,255,255,.1);
+}
+
+.fl-footer-list-divider-3 {
+	width: calc(100% /  3);
+	display: inline-block;
+	vertical-align: top;
 }
 
 .fl-footer-title {
 	font-weight: bold;
 	color: white;
-	font-size: 18px;
-	margin-bottom: 2rem;
+	font-size: 16px;
+	margin-bottom: 1rem;
 }
 
 .fl-footer-list-divider {
@@ -35,8 +63,12 @@
 	margin-top: 0;
 }	
 
+.fl-footer-list:not(:first-child) {
+	margin-left: 0.5rem;
+}
+
 .fl-footer-item { 
-	margin-top: 1rem;
+	margin-top: 0.2rem;
 }
 
 .fl-footer-inline-list .fl-footer-item {
@@ -49,24 +81,24 @@
 }
 
 .fl-footer-link {
-	color: white;
+	color: rgba(255,255,255,.5);
 	transition: color 0.3s ease;
 	font-weight: normal;
 	white-space: normal;
+	transition: color .3s, opacity .3s;
+	font-size: 13px;
 }
 
 @media (hover: hover) {
 
 	.fl-footer-link:hover {
-		text-decoration: underline;
-		/*color: #cfa144;*/
+		color: #e59f0b !important;
 	}
 
 }
 
 .fl-footer-link:active {
-	text-decoration: underline;
-	/*color: #cfa144;*/
+	color: #e59f0b !important;
 }
 
 .fl-footer-icon {
@@ -134,19 +166,20 @@
 }
 
 .fl-footer-bottom-con {
-	width: 90%;
-	padding: 1rem 5%;
-	text-align: center;
+	width: 76%;
+	padding: 40px 12%;
+	text-align: left;
 	color: white;
 	margin-top: 0;
-	background-color: #cfa144;
+	background-color: #26292c;
+	/*box-sizing: border-box;*/
 }
 
 @media only screen and (max-width: 1024px) {
 
 	.fl-footer { 
-		padding-left: 10vw;
-		padding-right: 10vw;
+		/*padding-left: 25px;
+		padding-right: 25px;*/
 	}
 		
 	.fl-footer > *:not(.fl-navbar-brand) {

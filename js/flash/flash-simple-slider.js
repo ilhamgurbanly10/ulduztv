@@ -8,7 +8,8 @@ function flashSimpleSlider(elmnt, settings = {
 	dots: true,
 	buttons: false,
 	draggable: true,
-	arrows: true
+	arrows: true,
+	length: false
 }) {
 
 	// default-values
@@ -19,6 +20,7 @@ function flashSimpleSlider(elmnt, settings = {
 	if (settings.buttons == undefined) settings.buttons = false;
 	if (settings.draggable == undefined) settings.draggable = true;
 	if (settings.arrows == undefined) settings.arrows = true;
+	if (settings.length == undefined) settings.length = false;
 
 	// elements-and-values
 	elmnt = flashSelector(elmnt);
@@ -32,6 +34,8 @@ function flashSimpleSlider(elmnt, settings = {
 	var prevIndex = lastIndex;
 	var autoplayFunction, dotsList, dotsItem = [], dots = [];
 	var track = elmnt.querySelector('.fl-simple-slider-track');
+	var totalLength = elmnt.querySelector('.fl-simple-slider-total-length');
+	var lengthIndex = elmnt.querySelector('.fl-simple-slider-length-index');
 	
 	if (settings.buttons) var buttons = elmnt.querySelectorAll('.fl-simple-slider-btn');
 		
@@ -41,9 +45,20 @@ function flashSimpleSlider(elmnt, settings = {
 	if (!settings.draggable) { 
 		track.classList.add('fl-not-draggable'); 
 		slides[0].classList.add('fl-show');
-	}	
+	}		
 
 	// functions
+	const setLength = () => {
+
+		if (settings.length && slidesLength > 1) { 
+			totalLength.innerHTML = slidesLength;
+			lengthIndex.innerHTML = 1; 
+		}
+
+	}
+
+	const setLengthIndex = (y) => { if (settings.length)  lengthIndex.innerHTML = y + 1; }
+
 	function determineSpeed() {
 
 		switch (settings.speed) {
@@ -96,6 +111,7 @@ function flashSimpleSlider(elmnt, settings = {
 
 			if (settings.dots) activeDot(index);
 			if (settings.buttons) activeBtn(index);
+			setLengthIndex(index);
 
 			if (settings.draggable) {
 
@@ -127,6 +143,7 @@ function flashSimpleSlider(elmnt, settings = {
 
 		if (settings.dots) activeDot(prevIndex);
 		if (settings.buttons) activeBtn(prevIndex);
+		setLengthIndex(prevIndex);
 
 		if (settings.draggable) {
 
@@ -162,6 +179,7 @@ function flashSimpleSlider(elmnt, settings = {
 
 		if (settings.dots) activeDot(index);
 		if (settings.buttons) activeBtn(index);
+		setLengthIndex(index);
 
 		if (settings.draggable) {
 
@@ -257,6 +275,7 @@ function flashSimpleSlider(elmnt, settings = {
 
 		activeDot(myIndex);
 		if (settings.buttons) activeBtn(myIndex);
+		setLengthIndex(myIndex);
 
 		if (myIndex == 0) prevIndex = lastIndex;
 		else prevIndex = myIndex - 1;
@@ -292,6 +311,7 @@ function flashSimpleSlider(elmnt, settings = {
 
 		activeBtn(myIndex);
 		if (settings.dots) activeDot(myIndex);
+		setLengthIndex(myIndex);
 
 		if (myIndex == 0) prevIndex = lastIndex;
 		else prevIndex = myIndex - 1;
@@ -396,6 +416,6 @@ function flashSimpleSlider(elmnt, settings = {
 
 	if (settings.buttons) createButtons();
 
-
-			
+	setLength();
+		
 }
